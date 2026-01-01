@@ -1,4 +1,4 @@
-# Full-Stack Web Developer Bootcamp + AI (Për Programera)
+# Full-Stack Web Developer Bootcamp + AI 
 
 This repository is **my weekly learning diary** from the  
 **“Full-Stack Web Developer Bootcamp + AI Integration”** organized by **Për Programera**.
