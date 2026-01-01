@@ -37,9 +37,7 @@ Instructor: **Ylber Veliu, MSc** – founder and instructor of the educational p
 - **Total weekly hours:** ~5 hours  
 - **Total Program Hours:** ~150 hours  
 
-Estimated completion time:  
-≈ **30 weeks** of learning  
-≈ Expected completion around **mid–July 2026** *(depending on holidays/breaks)*
+
 
 ---
 
