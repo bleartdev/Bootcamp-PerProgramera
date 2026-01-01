@@ -27,6 +27,22 @@ Instructor: **Ylber Veliu, MSc** – founder and instructor of the educational p
 
 ---
 
+## ⏰ Schedule & Duration
+
+- **Start Date:** 16 December 2025  
+- **Sessions:** Every **Tuesday & Thursday**  
+- **Time:** 19:00 – 21:30  
+- **Hours per session:** 2.5 hours  
+- **Total sessions per week:** 2  
+- **Total weekly hours:** ~5 hours  
+- **Total Program Hours:** ~150 hours  
+
+Estimated completion time:  
+≈ **30 weeks** of learning  
+≈ Expected completion around **mid–July 2026** *(depending on holidays/breaks)*
+
+---
+
 ## 🧠 What I Aim to Achieve with This Bootcamp
 
 - To be able to build **websites and full web applications from scratch to final product**.
@@ -46,26 +62,27 @@ Inside each part I keep only the code that I work on during that session.
 
 Example structure:
 
-/weeks
- ├── week1
- │    ├── part1
- │    │    ├── lesson1.html
- │    │    ├── lesson1.css
- │    │    └── lesson1.js
+/weeks  
+ ├── week1  
+ │    ├── part1  
+ │    │    ├── lesson1.html  
+ │    │    ├── lesson1.css  
+ │    │    └── lesson1.js  
  │    │
- │    └── part2
- │         ├── lesson1.html
- │         ├── lesson1.css
- │         └── lesson1.js
+ │    └── part2  
+ │         ├── lesson1.html  
+ │         ├── lesson1.css  
+ │         └── lesson1.js  
  │
- ├── week2
+ ├── week2  
  └── week3 ...
 
 This way everything stays:
 ✔️ clean  
 ✔️ organized  
-✔️ easy to understand
+✔️ easy to understand  
 
+---
 
 ## 🤖 AI & Tools I Am Using
 
