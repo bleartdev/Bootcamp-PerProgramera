@@ -85,7 +85,7 @@ The goal is to **learn how to combine classic development with AI**, so I can wo
 
 ## 📂 Projects
 
-Inside the [`projekte/`](./projekte/) folder I will add details about main projects:
+Inside the [`projects/`](./projects/) folder I will add details about main projects:
 
 - Project description  
 - Technologies used  
