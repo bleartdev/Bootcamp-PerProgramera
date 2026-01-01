@@ -37,24 +37,35 @@ Instructor: **Ylber Veliu, MSc** – founder and instructor of the educational p
 
 ---
 
-## 📅 Weekly Notes Structure
+## 📅 Weekly Notes & Lessons Structure
 
-Each week has its own file:
+All content is stored inside the `weeks/` directory.
 
-- [`java-01.md`](./java-01.md) – Introduction, basics, environment setup, first concepts
-- [`java-02.md`](./java-02.md) – ...
-- [`java-03.md`](./java-03.md) – ...
-- *(will continue to update as I progress)*
+Each week contains two parts (since I have 2 sessions per week).  
+Inside each part I keep only the code that I work on during that session.
 
-Weekly notes include:
+Example structure:
 
-- What we covered in lectures
-- What I personally learned
-- Problems / difficulties I faced
-- What I plan to practice during the week
-- Small project ideas
+/weeks
+ ├── week1
+ │    ├── part1
+ │    │    ├── lesson1.html
+ │    │    ├── lesson1.css
+ │    │    └── lesson1.js
+ │    │
+ │    └── part2
+ │         ├── lesson1.html
+ │         ├── lesson1.css
+ │         └── lesson1.js
+ │
+ ├── week2
+ └── week3 ...
 
----
+This way everything stays:
+✔️ clean  
+✔️ organized  
+✔️ easy to understand
+
 
 ## 🤖 AI & Tools I Am Using
 
