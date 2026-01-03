@@ -60,20 +60,36 @@ Inside each part I keep only the code that I work on during that session.
 
 Example structure:
 
-/weeks  
- ├── week-1
- │    ├── Tuesday
- │    │    ├── lesson1.html  
- │    │    ├── lesson1.css  
- │    │    └── lesson1.js  
- │    │
- │    └── Thursday
- │         ├── lesson1.html  
- │         ├── lesson1.css  
- │         └── lesson1.js  
- │
- ├── week-2
- └── week-3 ...
+[`Weeks/`](./Weeks/)/
+├── Week-1/
+│   ├── Tuesday/
+│   │   └── Lesson-1/
+│   │       ├── index.html
+│   │       ├── style.css
+│   │       └── script.js
+│   │
+│   └── Thursday/
+│       └── Lesson-1/
+│           ├── index.html
+│           ├── style.css
+│           └── script.js
+│
+├── Week-2/
+│   ├── Tuesday/
+│   │   └── Lesson-1/
+│   │       ├── index.html
+│   │       ├── style.css
+│   │       └── script.js
+│   │
+│   └── Thursday/
+│       └── Lesson-1/
+│           ├── index.html
+│           ├── style.css
+│   │       └── script.js
+│
+├── Week-3/
+│   └── ....
+
 
 This way everything stays:
 ✔️ clean  
@@ -100,7 +116,7 @@ The goal is to **learn how to combine classic development with AI**, so I can wo
 
 ## 📂 Projects
 
-Inside the [`projects/`](./projects/) folder I will add details about main projects:
+Inside the [`Projects/`](./Projects/) folder I will add details about main projects:
 
 - Project description  
 - Technologies used  
