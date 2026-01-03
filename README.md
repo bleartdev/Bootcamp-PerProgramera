@@ -58,9 +58,11 @@ All content is stored inside the `weeks/` directory.
 Each week contains two parts (since I have 2 sessions per week).  
 Inside each part I keep only the code that I work on during that session.
 
-Example structure:
 
-[`Weeks/`](./Weeks/)/
+### Example structure
+
+```text
+[`Weeks/`](./Bootcamp/Weeks/)/
 ├── Week-1/
 │   ├── Tuesday/
 │   │   └── Lesson-1/
@@ -85,10 +87,10 @@ Example structure:
 │       └── Lesson-1/
 │           ├── index.html
 │           ├── style.css
-│   │       └── script.js
+│           └── script.js
 │
 ├── Week-3/
-│   └── ....
+│   └── ...
 
 
 This way everything stays:
@@ -116,7 +118,7 @@ The goal is to **learn how to combine classic development with AI**, so I can wo
 
 ## 📂 Projects
 
-Inside the [`Projects/`](./Projects/) folder I will add details about main projects:
+Inside the [`Projects/\`](./Bootcamp/Projects/) folder I will add details about main projects:
 
 - Project description  
 - Technologies used  
