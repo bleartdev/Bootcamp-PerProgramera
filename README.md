@@ -61,7 +61,7 @@ Inside each part I keep only the code that I work on during that session.
 
 ### Example structure
 
-```text
+
 [`Weeks/`](./Bootcamp/Weeks/)/
 ├── Week-1/
 │   ├── Tuesday/
