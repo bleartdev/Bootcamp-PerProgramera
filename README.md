@@ -62,7 +62,10 @@ Inside each part I keep only the code that I work on during that session.
 ### Example structure
 
 
-[`Weeks/`](./Bootcamp/Weeks/)/
+[Weeks/](./Bootcamp/Weeks/)
+
+````text
+Weeks/
 ├── Week-1/
 │   ├── Tuesday/
 │   │   └── Lesson-1/
@@ -91,6 +94,7 @@ Inside each part I keep only the code that I work on during that session.
 │
 ├── Week-3/
 │   └── ...
+
 
 
 This way everything stays:
