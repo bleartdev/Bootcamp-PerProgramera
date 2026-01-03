@@ -60,20 +60,22 @@ Inside each part I keep only the code that I work on during that session.
 
 Example structure:
 
-/weeks  
- ├── week-1
- │    ├── Tuesday
- │    │    ├── lesson1.html  
- │    │    ├── lesson1.css  
- │    │    └── lesson1.js  
- │    │
- │    └── Thursday
- │         ├── lesson1.html  
- │         ├── lesson1.css  
- │         └── lesson1.js  
- │
- ├── week-2
- └── week-3 ...
+weeks/
+├── week-1/
+│   ├── Tuesday/
+│   │   ├── lesson1.html
+│   │   ├── lesson1.css
+│   │   └── lesson1.js
+│   │
+│   └── Thursday/
+│       ├── lesson1.html
+│       ├── lesson1.css
+│       └── lesson1.js
+│
+├── week-2/
+├── week-3/
+└── ...
+
 
 This way everything stays:
 ✔️ clean  
