@@ -21,7 +21,7 @@ The purpose of this repository is to:
   - JavaScript, React 19  
   - MySQL  
   - PHP 8.4, Laravel 12  
-  - Artificial Intelligence Integration (AI tools, LLMs, prompt engineering, etc.)
+  - Artificial Intelligence Integration 
 
 Instructor: **Ylber Veliu, MSc** – founder and instructor of the educational platform **Për Programera**.
 
@@ -105,21 +105,55 @@ This way everything stays:
 
 ---
 
-## 🤖 AI & Tools I Am Using
+## 🤖 AI & Tools I Will Learn and Use During the Bootcamp
 
-Some of the platforms/tools we learn (or I use in practice):
+As part of this bootcamp, I will learn the fundamentals and practical use of 
+Artificial Intelligence in software development, including both concepts 
+and hands-on tools.
 
-- Cursor / VS Code + GitHub Copilot  
-- OpenAI API (ChatGPT, DALL·E, Whisper)  
-- Claude, Grok / Gemini  
-- Lovable / Bolt  
-- Hugging Face, Replicate, Poe, Playground AI  
-- Low-Code & No-Code tools  
-- TensorFlow.js (for AI in the browser)
+### 🧠 AI Topics Covered
 
-The goal is to **learn how to combine classic development with AI**, so I can work faster and smarter.
+- Introduction to Artificial Intelligence (1950 – Present)
+- Core Concepts:
+  - Artificial Intelligence (AI)
+  - Machine Learning (ML)
+  - Deep Learning
+  - Neural Networks
+  - Natural Language Processing (NLP)
+  - Computer Vision
+  - Generative AI
+  - Large Language Models (LLMs)
+- Prompt Engineering:
+  - How to communicate effectively with AI
+  - How not to communicate with AI
+  - Identifying and understanding AI mistakes
+  - Getting the best results from AI
+- AI Today & Future Potential
+- Why it’s worth becoming a developer in the age of AI
+- How to become a unique and competitive developer
+- Weekly Q&A sessions and open discussions
 
----
+### 🛠️ Platforms & Tools Used
+
+- Cursor (AI-powered code editor)
+- VS Code + GitHub Copilot
+- OpenAI API (ChatGPT, Whisper, DALL·E)
+- Claude
+- Grok / Gemini
+- Lovable / Bolt
+- Hugging Face
+- Replicate
+- Poe
+- Playground AI
+- TensorFlow.js
+- Low-Code & No-Code tools
+
+### 🎯 Goal
+
+The goal is to **learn how to responsibly and effectively combine classic 
+software development with AI**, using it as a productivity and problem-solving 
+tool — not a replacement for core programming skills.
+
 
 ## 📂 Projects
 
