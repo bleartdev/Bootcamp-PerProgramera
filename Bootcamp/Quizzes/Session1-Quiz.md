@@ -6,7 +6,7 @@ Përmbledhje e koncepteve kryesore të **HTML (HyperText Markup Language)**.
 
 ## Përmbajtja
 
-1. [Çka është HTML?](#1-çka-është-html)
+1. [1. Cka eshte HTML](#1-cka-eshte-html)
 2. [Llojet e tag-eve](#2-llojët-e-tag-eve)
 3. [Struktura e dokumentit HTML](#3-struktura-e-dokumentit-html)
 4. [Çka vendoset në `<head>`](#4-çka-vendoset-në-head)
@@ -27,7 +27,8 @@ Përmbledhje e koncepteve kryesore të **HTML (HyperText Markup Language)**.
 
 ---
 
- ## 1. Cka eshte HTML
+## 1. Cka eshte HTML?
+
 
 
 HTML është një gjuhë përshkruese që përdoret për të ndërtuar **strukturën e faqeve web**.  
@@ -35,7 +36,7 @@ Nuk është gjuhë programimi. HTML i tregon browser-it se si organizohet dhe sh
 
 ---
 
-## 2. Llojët e tag-eve
+## 2. Llojët e tag-eve?
 
 ### 2.1 Tags hapëse dhe mbyllëse
 Kanë një tag hapës dhe një tag mbyllës.
@@ -53,7 +54,7 @@ Këto tag-e nuk kanë nevojë për tag mbyllës.
 <hr />
 ```
 ---
-## 3. Struktura e dokumentit HTML
+## 3. Struktura e dokumentit HTML?
 
 Çdo dokument HTML ka një strukturë bazë që i tregon browser-it
 si të lexojë dhe shfaqë faqen.
