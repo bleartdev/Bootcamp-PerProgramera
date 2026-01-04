@@ -1,240 +1,284 @@
-╔══════════════════════════════════════════════════════════════════════════════╗
-║                                                                              ║
-║   ██████╗ ████████╗███╗   ███╗██╗                                             ║
-║   ██╔══██╗╚══██╔══╝████╗ ████║██║                                             ║
-║   ██████╔╝   ██║   ██╔████╔██║██║                                             ║
-║   ██╔══██╗   ██║   ██║╚██╔╝██║██║                                             ║
-║   ██║  ██║   ██║   ██║ ╚═╝ ██║███████╗                                        ║
-║   ╚═╝  ╚═╝   ╚═╝   ╚═╝     ╚═╝╚══════╝                                        ║
-║                                                                              ║
-║                 HTML — PYETJE & PËRGJIGJE (BASICS)                            ║
-║                                                                              ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-  ╲                                                                            ╱
-   ╲__________________________________________________________________________/ 
-    ╲                                                                          ╱
-     ╲________________________________________________________________________╱
+# HTML Basics — Pyetje & Përgjigje
+
+Përmbledhje e koncepteve kryesore të **HTML (HyperText Markup Language)**.  
+
+---
+
+## Përmbajtja
+
+1. [Çka është HTML?](#1-çka-është-html)
+2. [Llojet e tag-eve](#2-llojët-e-tag-eve)
+3. [Struktura e dokumentit HTML](#3-struktura-e-dokumentit-html)
+4. [Çka vendoset në `<head>`](#4-çka-vendoset-në-head)
+5. [Çka vendoset në `<body>`](#5-çka-vendoset-në-body)
+6. [Si renderohen elementet](#6-si-renderohen-elementet)
+7. [Block vs Inline](#7-block-vs-inline)
+8. [Comments në HTML](#8-comments-në-html)
+9. [Etiketa të tekstit](#9-etiketa-të-tekstit)
+10. [Etiketat semantike](#10-etiketat-semantike)
+11. [Semantike vs të zakonshme](#11-semantike-vs-të-zakonshme)
+12. [4 etiketa semantike](#12-4-etiketa-semantike)
+13. [Llojet e listave](#13-llojët-e-listave)
+14. [Tags e secilës listë](#14-tags-e-secilës-listë)
+15. [Linket dhe atributet](#15-linket-dhe-atributet)
+16. [Llojet e linkeve](#16-llojët-e-linkeve)
+17. [`img` vs `figure`](#17-img-vs-figure)
+18. [Tags për imazhe dhe figura](#18-tags-për-imazhe-dhe-figura)
+
+---
+
+ ## 1. Cka eshte HTML
 
 
-┌──────────────────────────────────────────────────────────────────────────────┐
-│ ABOUT                                                                         │
-└──────────────────────────────────────────────────────────────────────────────┘
-  Ky dokument përmbledh konceptet bazë të HTML (HyperText Markup Language).
-  Shërben si material mësimor dhe referencë e shpejtë për zhvillimin web.
+HTML është një gjuhë përshkruese që përdoret për të ndërtuar **strukturën e faqeve web**.  
+Nuk është gjuhë programimi. HTML i tregon browser-it se si organizohet dhe shfaqet përmbajtja e faqes.
+
+---
+
+## 2. Llojët e tag-eve
+
+### 2.1 Tags hapëse dhe mbyllëse
+Kanë një tag hapës dhe një tag mbyllës.
+
+```html
+<p>Tekst</p>
+
+### 2.2 Tags vetë-mbyllëse (self-closing)
+
+Këto tag-e nuk kanë nevojë për tag mbyllës.
+
+```html
+<img />
+<br />
+<hr />
+```
+---
+## 3. Struktura e dokumentit HTML
+
+Çdo dokument HTML ka një strukturë bazë që i tregon browser-it
+si të lexojë dhe shfaqë faqen.
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Meta tags, title, CSS -->
+  </head>
+  <body>
+    <!-- Përmbajtja e dukshme e faqes -->
+  </body>
+</html>
+```
+---
+## 4. Çka vendoset në `<head>`?
+
+Pjesa `<head>` e dokumentit HTML përmban informacione që **nuk shfaqen direkt**
+në faqen web, por janë të rëndësishme për browser-in dhe motorët e kërkimit.
+
+Elementet kryesore që vendosen në `<head>` janë:
+
+- `<meta>` – përcakton charset, viewport, description, keywords
+- `<title>` – titulli i faqes që shfaqet në tab-in e browser-it
+- `<link>` – përdoret për të lidhur stylesheet-et (CSS)
+- Metadata për SEO dhe identitetin e faqes (favicon, etj.)
+
+---
+
+## 5. Çka vendoset në `<body>`?
+
+Pjesa `<body>` përmban **përmbajtjen e dukshme** të faqes web,
+e cila shfaqet direkt në browser.
+
+Në `<body>` zakonisht vendosen:
+
+- Tekste (tituj, paragrafë, citime)
+- Imazhe (`<img>`)
+- Linke (`<a>`)
+- Lista (`<ul>`, `<ol>`)
+- Tabela (`<table>`)
+- Forma (`<form>`)
+## 6. Si renderohen elementet në browser?
+
+Në HTML, elementet shfaqen në browser sipas mënyrës se si janë të
+përcaktuara për t’u renderuar. Më së shpeshti, ato ndahen në dy grupe:
+
+- **Block elements**
+- **Inline elements**
+
+Kjo ndarje ndikon në mënyrën se si elementet pozicionohen dhe
+si sillen ndaj elementeve të tjerë në faqe.
+
+---
+
+## 7. Block vs Inline
+
+### Block elements
+- Zënë gjithë gjerësinë e rreshtit (full-width)
+- Fillojnë gjithmonë në rresht të ri
+- Mund të përmbajnë elemente të tjerë brenda tyre
+
+Shembuj të zakonshëm:
+`<div>`, `<p>`, `<h1>` – `<h6>`, `<section>`
+
+### Inline elements
+- Zënë vetëm hapësirën e përmbajtjes së tyre
+- Nuk fillojnë rresht të ri
+- Shfaqen brenda rreshtit me elemente të tjerë
+
+Shembuj të zakonshëm:
+`<span>`, `<a>`, `<strong>`, `<em>`
+
+---
 
 
-┌──────────────────────────────────────────────────────────────────────────────┐
-│ CONTENTS                                                                      │
-└──────────────────────────────────────────────────────────────────────────────┘
-  01  Çka është HTML
-  02  Llojet e tag-eve
-  03  Struktura bazë e dokumentit
-  04  Çka vendoset në head
-  05  Çka vendoset në body
-  06  Si renderohen elementet
-  07  Block vs Inline
-  08  Comments
-  09  Etiketa të tekstit
-  10  Etiketat semantike
-  11  Semantike vs të zakonshme
-  12  4 etiketa semantike
-  13  Llojet e listave
-  14  Tags e listave
-  15  Linket dhe atributet
-  16  Llojet e linkeve
-  17  img vs figure
-  18  Tags për imazhe dhe figura
+## 8. Comments në HTML
 
+Comments në HTML përdoren për **shpjegim, dokumentim dhe mirëmbajtje**
+të kodit, pa u shfaqur në faqen web.
 
-╔══════════════════════════════════════════════════════════════════════════════╗
-║  01  ÇKA ËSHTË HTML                                                          ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-  HTML (HyperText Markup Language) është një gjuhë përshkruese për strukturimin
-  e faqeve web.
+Ato ndihmojnë zhvilluesit të kuptojnë më lehtë strukturën dhe logjikën
+e kodit, sidomos në projekte më të mëdha.
 
-  Nuk është gjuhë programimi.
-  HTML i tregon browser-it si të organizohet dhe shfaqet përmbajtja.
+Browser-i **nuk i shfaq comments**.
 
+```html
+<!-- Ky është një comment në HTML 
+```
 
-╔══════════════════════════════════════════════════════════════════════════════╗
-║  02  LLOJET E TAG-EVE                                                        ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-  Dy kategori kryesore:
+---
 
-  A) Tags hapëse + mbyllëse
-     Shembull:
-     <p>Tekst</p>
+## 9. Etiketa të tekstit në HTML
 
-  B) Tags vetë-mbyllëse
-     Shembuj:
-     <img />
-     <br />
-     <hr />
+HTML përdor etiketa të ndryshme për **formatimin dhe organizimin e tekstit**
+brenda faqes web. Këto etiketa ndihmojnë në theksimin e përmbajtjes
+dhe përmirësojnë lexueshmërinë.
 
+Etiketa më të përdorura të tekstit janë:
 
-╔══════════════════════════════════════════════════════════════════════════════╗
-║  03  STRUKTURA BAZË E DOKUMENTIT                                             ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-  <!DOCTYPE html>
-  <html>
-    <head>
-    </head>
-    <body>
-    </body>
-  </html>
+- **Bold / Trashë:** `<b>`, `<strong>`
+- **Italic / Pjerrët:** `<i>`, `<em>`
+- **Underline / Nënvizim:** `<u>`
+- **Subscript / Superscript:** `<sub>`, `<sup>`
+- **Tituj / Headers:** `<h1>` deri `<h6>`
 
+---
 
-╔══════════════════════════════════════════════════════════════════════════════╗
-║  04  ÇKA VENDOSET NË HEAD                                                    ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-  Head përmban informacione që nuk shfaqen direkt në faqe, por janë të rëndësishme
-  për funksionimin e saj.
+## 10. Etiketat semantike
 
-  - Meta tags (charset, viewport, description)
-  - Title i faqes
-  - Lidhje me CSS (link)
-  - Informacione për browser dhe SEO
+Etiketat semantike janë etiketa HTML që tregojnë **kuptimin dhe rolin**
+e përmbajtjes në strukturën e faqes web.
 
+Ato ndihmojnë:
+- Browser-in dhe motorët e kërkimit (SEO)
+- Accessibility për përdoruesit
+- Strukturë më të pastër dhe më të kuptueshme të kodit
 
-╔══════════════════════════════════════════════════════════════════════════════╗
-║  05  ÇKA VENDOSET NË BODY                                                    ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-  Body përmban përmbajtjen e dukshme të faqes web.
+Shembuj të etiketave semantike:
+`<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`
 
-  - Tekste (tituj, paragrafë)
-  - Imazhe
-  - Linke
-  - Lista
-  - Tabela
-  - Forma
+---
 
+## 11. Semantike vs të zakonshme
 
-╔══════════════════════════════════════════════════════════════════════════════╗
-║  06  SI RENDEROHEN ELEMENTET                                                 ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-  Elementet HTML shfaqen zakonisht si:
+Në HTML ekziston dallim mes **etiketave të zakonshme** dhe **etiketave semantike**.
 
-  - Block elements
-  - Inline elements
+- **Etiketat e zakonshme** (p.sh. `<div>`, `<span>`)  
+  Nuk tregojnë kuptim logjik për përmbajtjen; përdoren kryesisht për strukturë ose stilim.
 
+- **Etiketat semantike** (p.sh. `<header>`, `<nav>`, `<main>`, `<footer>`)  
+  Tregojnë qartë rolin e përmbajtjes në faqe dhe ndihmojnë në:
+  - përmirësimin e SEO
+  - accessibility
+  - strukturë më të lexueshme të kodit
 
-╔══════════════════════════════════════════════════════════════════════════════╗
-║  07  BLOCK vs INLINE                                                         ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-  Block elements
-  - Zënë gjithë gjerësinë e rreshtit
-  - Fillojnë në rresht të ri
-  Shembuj: div, p, h1-h6
+---
 
-  Inline elements
-  - Zënë vetëm hapësirën e përmbajtjes
-  - Qëndrojnë në të njëjtin rresht
-  Shembuj: span, a, strong, em
+## 12. 4 etiketa semantike
 
+Disa nga etiketat semantike më të përdorura në HTML janë:
 
-╔══════════════════════════════════════════════════════════════════════════════╗
-║  08  COMMENTS                                                                ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-  Comments përdoren për shpjegim dhe dokumentim të kodit.
-  Browser-i nuk i shfaq.
+- `<header>` – për pjesën e sipërme të faqes (titull, logo, menu)
+- `<nav>` – për navigacionin e faqes
+- `<main>` – për përmbajtjen kryesore të faqes
+- `<footer>` – për pjesën e poshtme të faqes (copyright, linke)
 
-  Shembull:
-  <!-- Ky është një comment -->
+---
 
+## 13. Llojët e listave
 
-╔══════════════════════════════════════════════════════════════════════════════╗
-║  09  ETIKETA TË TEKSTIT                                                      ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-  - Bold: b, strong
-  - Italic: i, em
-  - Underline: u
-  - Sub/Sup: sub, sup
-  - Tituj: h1 deri h6
+Në HTML ekzistojnë tre lloje kryesore listash, të cilat përdoren për të
+organizuar përmbajtjen në mënyrë të strukturuar.
 
+- **Ordered list** – listë e renditur me numra
+- **Unordered list** – listë e parenditur me pika
+- **Description list** – listë përshkruese për terma dhe shpjegime
 
-╔══════════════════════════════════════════════════════════════════════════════╗
-║  10  ETIKETAT SEMANTIKE                                                      ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-  Etiketat semantike tregojnë rolin e përmbajtjes në faqe.
-  Ndihmojnë SEO dhe accessibility.
+---
 
-  Shembuj:
-  header, nav, main, section, article, footer
+## 14. Tags e secilës listë
 
+Çdo lloj liste në HTML përdor tag-et e veta karakteristike.
 
-╔══════════════════════════════════════════════════════════════════════════════╗
-║  11  SEMANTIKE vs TË ZAKONSHME                                               ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-  - div (tag i zakonshëm): nuk tregon kuptim/rol
-  - header/nav/main/footer (semantike): tregojnë qartë rolin e përmbajtjes
+- **Ordered list:** `<ol>` dhe `<li>`
+- **Unordered list:** `<ul>` dhe `<li>`
+- **Description list:** `<dl>`, `<dt>` dhe `<dd>`
 
+---
 
-╔══════════════════════════════════════════════════════════════════════════════╗
-║  12  4 ETIKETA SEMANTIKE                                                     ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-  header
-  nav
-  main
-  footer
+## 15. Linket dhe atributet
 
+Tagu për krijimin e linkeve në HTML është `<a>`.
 
-╔══════════════════════════════════════════════════════════════════════════════╗
-║  13  LLOJET E LISTAVE                                                        ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-  - Ordered list
-  - Unordered list
-  - Description list
+Atributet kryesore të këtij tagu janë:
+- **`href`** – specifikon adresën (URL) ku çon linku
+- **`target`** – përcakton ku hapet linku (p.sh. `_blank` për dritare të re)
+- **`title`** – shton një përshkrim të shkurtër që shfaqet si tooltip
 
+Shembull:
+```html
+<a href="https://example.com" target="_blank" title="Example">Example</a>
+```
 
-╔══════════════════════════════════════════════════════════════════════════════╗
-║  14  TAGS E LISTAVE                                                          ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-  Ordered list:     ol + li
-  Unordered list:   ul + li
-  Description list: dl + dt + dd
+----
 
+## 16. Llojët e linkeve
 
-╔══════════════════════════════════════════════════════════════════════════════╗
-║  15  LINKET (a) DHE ATRIBUTET                                                ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-  Tagu: a
+Në HTML, linket përdoren për të lidhur faqe dhe burime të ndryshme.
+Ekzistojnë dy lloje kryesore linkesh:
 
-  Atributet kryesore:
-  - href   (adresa)
-  - target (ku hapet)
-  - title  (përshkrim)
+- **Linke të brendshme (Internal links)**  
+  Përdoren për të lidhur faqe brenda të njëjtit website ose projekt.
 
-  Shembull:
-  <a href="https://example.com" target="_blank" title="Example">Example</a>
+- **Linke të jashtme (External links)**  
+  Përdoren për të lidhur faqe ose burime në internet.
 
+---
 
-╔══════════════════════════════════════════════════════════════════════════════╗
-║  16  LLOJET E LINKEVE                                                        ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-  - Linke të brendshme (brenda projektit)
-  - Linke të jashtme (në internet)
+## 17. `img` vs `figure`
 
+Në HTML ekziston dallim mes përdorimit të tagut `<img>` dhe `<figure>`.
 
-╔══════════════════════════════════════════════════════════════════════════════╗
-║  17  IMG vs FIGURE                                                           ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-  img    — shfaq vetëm imazhin
-  figure — shfaq imazhin + përshkrimin (figcaption)
+- **`<img>`**  
+  Përdoret për të shfaqur vetëm imazhin në faqe.
 
+- **`<figure>`**  
+  Përdoret për të shfaqur imazhin bashkë me një përshkrim (`<figcaption>`),
+  zakonisht kur imazhi ka kuptim kontekstual.
 
-╔══════════════════════════════════════════════════════════════════════════════╗
-║  18  TAGS PËR IMAZHE DHE FIGURA                                              ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-  Për imazhe: img
-  Për figura: figure + figcaption
+---
 
-  Shembull:
-  <figure>
-    <img src="foto.jpg" alt="Foto">
-    <figcaption>Përshkrimi i fotos</figcaption>
-  </figure>
+## 18. Tags për imazhe dhe figura
 
+Për të punuar me imazhe dhe figura në HTML përdoren këto tagje:
 
-┌──────────────────────────────────────────────────────────────────────────────┐
-│ END                                                                          │
-└──────────────────────────────────────────────────────────────────────────────┘
+- **`<img>`** – për shfaqjen e imazheve
+- **`<figure>`** – për përfshirjen e imazhit
+- **`<figcaption>`** – për përshkrimin e imazhit
+
+Shembull:
+```html
+<figure>
+  <img src="foto.jpg" alt="Foto shembull">
+  <figcaption>Përshkrimi i fotos</figcaption>
+</figure>
+```
