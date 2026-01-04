@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Forms - Pjesa II</title>
+</head>
+<body>
+    <h1>
+        Web Forms - Pjesa II
+    </h1>
+<br>
+<br>
+
+        <form>
+            <h3>Checkbox Button</h3>
+            <!-- Checkbox -->
+             <label for="bsc">Bachelor</label>
+             <input type="checkbox" id="bsc" value="Bachelor" name="education"><br>
+
+             <label for="msc">Master</label>
+             <input type="checkbox" id="msc" value="Master" name="education"><br>
+
+             <label for="phd">PhD</label>
+             <input type="checkbox" id="phd" value="PhD" name="education"><br><br>
+            <input type="submit">
+        </form>
+
+<br>
+<hr>
+               <form>
+                <h3>Radio Button</h3>
+            <!-- Radio -->
+
+            <label for="f">Female</label>
+             <input type="radio" id="f" value="Female" name="gender"><br>
+
+             <label for="m">Male</label>
+             <input type="radio" id="m" value="Male" name="gender"><br><br>
+
+            <input type="submit">
+        </form>
+
+
+
+        <br>
+        <hr>
+        <br>
+<form>
+
+    <h3>Range Input</h3>
+
+        <input type="range" min="0" max="100" value="50" step="5"><br><br>
+
+        <input type="submit">
+
+</form>
+
+<br>
+<hr>
+<br>
+
+<form>
+
+    <h3>Input Url</h3>
+
+    <input type="url" placeholder="Url address" required><br><br>
+    
+    <input type="submit">
+    
+</form>
+
+<br>
+<hr>
+<br>
+
+
+<form >
+<h3>Texarea</h3>
+    <textarea placeholder="Write Text" cols="50" rows="10"></textarea><br><br>
+    <input type="submit">
+</form>
+
+<br>
+<hr>
+<br>
+
+<form>
+
+    <h3>Datalist</h3>
+
+
+<input list="subjects" placeholder="Choose a subject">
+
+<datalist id="subjects">
+    <option value="English">
+    <option value="Mathematics">
+    <option value="Physics">
+    <option value="Chemistry">
+    <option value="Biology">
+    <option value="History">
+</datalist><br><br>
+
+<input type="submit">
+
+</form>
+
+
+<br>
+<hr>
+<br>
+
+<form>
+<h3>Select</h3>
+<small>Hold CTRL + Click to select more than one year.</small><br><br>
+    <select>
+        <option value="2025">2025</option>
+        <option value="2024">2024</option>
+        <option value="2023">2023</option>
+        <optgroup label="Corona Period">
+        <option value="2022">2022</option>
+        <option value="2021">2021</option>
+        <option value="2020">2020</option>
+        </optgroup>
+    </select><br><br>
+    
+
+    <input type="submit">
+
+</form>
+<br>
+<hr>
+<br>
+<form>
+<h3>Progress</h3>
+<progress min="0" max="100" value="30"></progress><br><br>
+
+<input type="submit">
+
+</form>
+<br>
+<hr>
+<br>
+<form>
+
+    <h3>Inputi Reset</h3>
+    <input type="reset">
+</form>
+
+
+<br>
+<hr>
+<br>
+
+<h3>Fieldset / Legend</h3>
+<fieldset>
+    <legend>Register</legend><br>
+    
+
+    <input type="text" placeholder="Full Name"><br><br>
+    <input type="email" placeholder="Enter your email"><br><br>
+    <input type="tel" placeholder="Enter your number"><br><br>
+    <input type="date" placeholder="Date of birth"><br><br>
+    <input type="submit" value="Register">
+
+
+</fieldset>
+
+</body>
+</html>
