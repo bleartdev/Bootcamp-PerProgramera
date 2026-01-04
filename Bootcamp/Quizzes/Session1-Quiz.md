@@ -1,52 +1,59 @@
-# HTML Basics — Pyetje & Përgjigje
+# HTML Basics — Session 1 Overview
 
-Përmbledhje e koncepteve kryesore të **HTML (HyperText Markup Language)**.  
+A concise overview of the core concepts of **HTML (HyperText Markup Language)**.
 
 ---
 
-## Përmbajtja
+## Table of Contents
 
-1. [1. Cka eshte HTML](#1-cka-eshte-html)
-2. [Llojet e tag-eve](#2-llojët-e-tag-eve)
-3. [Struktura e dokumentit HTML](#3-struktura-e-dokumentit-html)
-4. [Çka vendoset në `<head>`](#4-çka-vendoset-në-head)
-5. [Çka vendoset në `<body>`](#5-çka-vendoset-në-body)
-6. [Si renderohen elementet](#6-si-renderohen-elementet)
-7. [Block vs Inline](#7-block-vs-inline)
-8. [Comments në HTML](#8-comments-në-html)
-9. [Etiketa të tekstit](#9-etiketa-të-tekstit)
-10. [Etiketat semantike](#10-etiketat-semantike)
-11. [Semantike vs të zakonshme](#11-semantike-vs-të-zakonshme)
-12. [4 etiketa semantike](#12-4-etiketa-semantike)
-13. [Llojet e listave](#13-llojët-e-listave)
-14. [Tags e secilës listë](#14-tags-e-secilës-listë)
-15. [Linket dhe atributet](#15-linket-dhe-atributet)
-16. [Llojet e linkeve](#16-llojët-e-linkeve)
+1. [What is HTML?](#1-what-is-html)
+2. [Types of tags](#2-types-of-tags)
+3. [HTML document structure](#3-html-document-structure)
+4. [What goes inside `<head>`](#4-what-goes-inside-head)
+5. [What goes inside `<body>`](#5-what-goes-inside-body)
+6. [How elements are rendered](#6-how-elements-are-rendered)
+7. [Block vs Inline elements](#7-block-vs-inline-elements)
+8. [Comments in HTML](#8-comments-in-html)
+9. [Text formatting tags](#9-text-formatting-tags)
+10. [Semantic HTML tags](#10-semantic-html-tags)
+11. [Semantic vs non-semantic tags](#11-semantic-vs-non-semantic-tags)
+12. [Four semantic tags](#12-four-semantic-tags)
+13. [Types of lists](#13-types-of-lists)
+14. [Tags for each list type](#14-tags-for-each-list-type)
+15. [Links and attributes](#15-links-and-attributes)
+16. [Types of links](#16-types-of-links)
 17. [`img` vs `figure`](#17-img-vs-figure)
-18. [Tags për imazhe dhe figura](#18-tags-për-imazhe-dhe-figura)
+18. [Tags for images and figures](#18-tags-for-images-and-figures)
 
 ---
 
-## 1. Cka eshte HTML?
+## 1. What is HTML?
 
-
-
-HTML është një gjuhë përshkruese që përdoret për të ndërtuar **strukturën e faqeve web**.  
-Nuk është gjuhë programimi. HTML i tregon browser-it se si organizohet dhe shfaqet përmbajtja e faqes.
+HTML is a markup language used to build the **structure of web pages**.  
+It is not a programming language. HTML tells the browser how content
+should be organized and displayed.
 
 ---
 
-## 2. Llojët e tag-eve?
+## 2. Types of tags
 
-### 2.1 Tags hapëse dhe mbyllëse
-Kanë një tag hapës dhe një tag mbyllës.
+HTML tags are used to define and structure content on a web page.
+They can be divided into two main categories.
+
+### 2.1 Opening and closing tags
+These tags consist of an opening tag and a closing tag and wrap content
+between them.
 
 ```html
-<p>Tekst</p>
 
-### 2.2 Tags vetë-mbyllëse (self-closing)
+<p>Text</p>
 
-Këto tag-e nuk kanë nevojë për tag mbyllës.
+```
+
+### 2.2 Self-closing tags
+
+These tags do not require a closing tag and are used for elements
+that do not contain content.
 
 ```html
 <img />
@@ -54,10 +61,10 @@ Këto tag-e nuk kanë nevojë për tag mbyllës.
 <hr />
 ```
 ---
-## 3. Struktura e dokumentit HTML?
+## 3. HTML document structure
 
-Çdo dokument HTML ka një strukturë bazë që i tregon browser-it
-si të lexojë dhe shfaqë faqen.
+Every HTML document follows a basic structure that tells the browser
+how to interpret and render the page content.
 
 ```html
 <!DOCTYPE html>
@@ -66,220 +73,239 @@ si të lexojë dhe shfaqë faqen.
     <!-- Meta tags, title, CSS -->
   </head>
   <body>
-    <!-- Përmbajtja e dukshme e faqes -->
+    <!-- Visible page content -->
   </body>
 </html>
 ```
----
-## 4. Çka vendoset në `<head>`?
-
-Pjesa `<head>` e dokumentit HTML përmban informacione që **nuk shfaqen direkt**
-në faqen web, por janë të rëndësishme për browser-in dhe motorët e kërkimit.
-
-Elementet kryesore që vendosen në `<head>` janë:
-
-- `<meta>` – përcakton charset, viewport, description, keywords
-- `<title>` – titulli i faqes që shfaqet në tab-in e browser-it
-- `<link>` – përdoret për të lidhur stylesheet-et (CSS)
-- Metadata për SEO dhe identitetin e faqes (favicon, etj.)
+- `<!DOCTYPE html>` declares the document as HTML5
+- `<html>` is the root element of the document
+- `<head>` contains metadata and configuration information
+- `<body>` contains the content displayed in the browser
 
 ---
+## 4. What goes inside `<head>`?
 
-## 5. Çka vendoset në `<body>`?
+The `<head>` section of an HTML document contains information that is
+**not displayed directly** on the web page but is essential for the
+browser and search engines.
 
-Pjesa `<body>` përmban **përmbajtjen e dukshme** të faqes web,
-e cila shfaqet direkt në browser.
+Common elements placed inside `<head>` include:
 
-Në `<body>` zakonisht vendosen:
+- `<meta>` — defines character encoding, viewport, description, keywords
+- `<title>` — the page title shown in the browser tab
+- `<link>` — used to connect external stylesheets (CSS)
+- Metadata for SEO and site identity (favicon, etc.)
 
-- Tekste (tituj, paragrafë, citime)
-- Imazhe (`<img>`)
-- Linke (`<a>`)
-- Lista (`<ul>`, `<ol>`)
-- Tabela (`<table>`)
-- Forma (`<form>`)
-## 6. Si renderohen elementet në browser?
 
-Në HTML, elementet shfaqen në browser sipas mënyrës se si janë të
-përcaktuara për t’u renderuar. Më së shpeshti, ato ndahen në dy grupe:
+---
+
+## 5. What goes inside `<body>`?
+
+The `<body>` section contains the **visible content** of a web page,
+which is rendered directly in the browser.
+
+Elements commonly placed inside `<body>` include:
+
+- Text (headings, paragraphs, quotes)
+- Images (`<img>`)
+- Links (`<a>`)
+- Lists (`<ul>`, `<ol>`)
+- Tables (`<table>`)
+- Forms (`<form>`)
+
+---
+
+## 6. How elements are rendered
+
+In HTML, elements are rendered by the browser based on how they are defined.
+Most elements fall into one of two categories:
 
 - **Block elements**
 - **Inline elements**
 
-Kjo ndarje ndikon në mënyrën se si elementet pozicionohen dhe
-si sillen ndaj elementeve të tjerë në faqe.
+This distinction affects how elements are positioned and displayed
+in relation to other content on the page.
+
 
 ---
 
-## 7. Block vs Inline
+## 7. Block vs Inline elements
+
+HTML elements behave differently depending on how they are rendered.
 
 ### Block elements
-- Zënë gjithë gjerësinë e rreshtit (full-width)
-- Fillojnë gjithmonë në rresht të ri
-- Mund të përmbajnë elemente të tjerë brenda tyre
+- Occupy the full width of the line
+- Always start on a new line
+- Can contain other elements
 
-Shembuj të zakonshëm:
+Common examples:
 `<div>`, `<p>`, `<h1>` – `<h6>`, `<section>`
 
 ### Inline elements
-- Zënë vetëm hapësirën e përmbajtjes së tyre
-- Nuk fillojnë rresht të ri
-- Shfaqen brenda rreshtit me elemente të tjerë
+- Occupy only the space of their content
+- Do not start on a new line
+- Appear within the flow of text
 
-Shembuj të zakonshëm:
+Common examples:
 `<span>`, `<a>`, `<strong>`, `<em>`
 
 ---
 
+## 8. Comments in HTML
 
-## 8. Comments në HTML
+Comments in HTML are used for **explanation, documentation, and maintenance**
+of code without being displayed on the web page.
 
-Comments në HTML përdoren për **shpjegim, dokumentim dhe mirëmbajtje**
-të kodit, pa u shfaqur në faqen web.
+They help developers understand the structure and logic of the code,
+especially in larger projects.
 
-Ato ndihmojnë zhvilluesit të kuptojnë më lehtë strukturën dhe logjikën
-e kodit, sidomos në projekte më të mëdha.
-
-Browser-i **nuk i shfaq comments**.
+Browsers **do not render comments**.
 
 ```html
-<!-- Ky është një comment në HTML 
+
+<!-- This is an HTML comment -->
+
 ```
 
 ---
 
-## 9. Etiketa të tekstit në HTML
+## 9. Text formatting tags
 
-HTML përdor etiketa të ndryshme për **formatimin dhe organizimin e tekstit**
-brenda faqes web. Këto etiketa ndihmojnë në theksimin e përmbajtjes
-dhe përmirësojnë lexueshmërinë.
+HTML uses different tags to **format and structure text** on a web page.
+These tags help highlight content and improve readability.
 
-Etiketa më të përdorura të tekstit janë:
+Commonly used text formatting tags include:
 
-- **Bold / Trashë:** `<b>`, `<strong>`
-- **Italic / Pjerrët:** `<i>`, `<em>`
-- **Underline / Nënvizim:** `<u>`
+- **Bold:** `<b>`, `<strong>`
+- **Italic:** `<i>`, `<em>`
+- **Underline:** `<u>`
 - **Subscript / Superscript:** `<sub>`, `<sup>`
-- **Tituj / Headers:** `<h1>` deri `<h6>`
+- **Headings:** `<h1>` to `<h6>`
 
 ---
 
-## 10. Etiketat semantike
+## 10. Semantic HTML tags
 
-Etiketat semantike janë etiketa HTML që tregojnë **kuptimin dhe rolin**
-e përmbajtjes në strukturën e faqes web.
+Semantic HTML tags are elements that clearly describe the **meaning and role**
+of the content they contain.
 
-Ato ndihmojnë:
-- Browser-in dhe motorët e kërkimit (SEO)
-- Accessibility për përdoruesit
-- Strukturë më të pastër dhe më të kuptueshme të kodit
+They help:
+- Browsers and search engines (SEO)
+- Accessibility tools
+- Developers understand the structure of a page
 
-Shembuj të etiketave semantike:
+Examples of semantic HTML tags:
 `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`
 
 ---
 
-## 11. Semantike vs të zakonshme
+## 11. Semantic vs non-semantic tags
 
-Në HTML ekziston dallim mes **etiketave të zakonshme** dhe **etiketave semantike**.
+In HTML, there is a clear distinction between **non-semantic** and
+**semantic** tags.
 
-- **Etiketat e zakonshme** (p.sh. `<div>`, `<span>`)  
-  Nuk tregojnë kuptim logjik për përmbajtjen; përdoren kryesisht për strukturë ose stilim.
+- **Non-semantic tags** (e.g. `<div>`, `<span>`)  
+  Do not describe the meaning of their content and are mainly used
+  for layout or styling purposes.
 
-- **Etiketat semantike** (p.sh. `<header>`, `<nav>`, `<main>`, `<footer>`)  
-  Tregojnë qartë rolin e përmbajtjes në faqe dhe ndihmojnë në:
-  - përmirësimin e SEO
-  - accessibility
-  - strukturë më të lexueshme të kodit
-
----
-
-## 12. 4 etiketa semantike
-
-Disa nga etiketat semantike më të përdorura në HTML janë:
-
-- `<header>` – për pjesën e sipërme të faqes (titull, logo, menu)
-- `<nav>` – për navigacionin e faqes
-- `<main>` – për përmbajtjen kryesore të faqes
-- `<footer>` – për pjesën e poshtme të faqes (copyright, linke)
+- **Semantic tags** (e.g. `<header>`, `<nav>`, `<main>`, `<footer>`)  
+  Clearly define the role of the content and help improve:
+  - SEO
+  - Accessibility
+  - Code readability
 
 ---
 
-## 13. Llojët e listave
+## 12. Four semantic tags
 
-Në HTML ekzistojnë tre lloje kryesore listash, të cilat përdoren për të
-organizuar përmbajtjen në mënyrë të strukturuar.
+Some commonly used semantic HTML tags include:
 
-- **Ordered list** – listë e renditur me numra
-- **Unordered list** – listë e parenditur me pika
-- **Description list** – listë përshkruese për terma dhe shpjegime
+- `<header>` — represents the top section of a page (logo, title, navigation)
+- `<nav>` — contains the main navigation links
+- `<main>` — represents the main content of the page
+- `<footer>` — represents the bottom section (copyright, links)
 
----
-
-## 14. Tags e secilës listë
-
-Çdo lloj liste në HTML përdor tag-et e veta karakteristike.
-
-- **Ordered list:** `<ol>` dhe `<li>`
-- **Unordered list:** `<ul>` dhe `<li>`
-- **Description list:** `<dl>`, `<dt>` dhe `<dd>`
 
 ---
 
-## 15. Linket dhe atributet
+## 13. Types of lists
 
-Tagu për krijimin e linkeve në HTML është `<a>`.
+HTML supports three main types of lists, which are used to organize
+content in a structured way.
 
-Atributet kryesore të këtij tagu janë:
-- **`href`** – specifikon adresën (URL) ku çon linku
-- **`target`** – përcakton ku hapet linku (p.sh. `_blank` për dritare të re)
-- **`title`** – shton një përshkrim të shkurtër që shfaqet si tooltip
+- **Ordered list** — a numbered list
+- **Unordered list** — a bulleted list
+- **Description list** — a list of terms and their descriptions
 
-Shembull:
+---
+
+## 14. Tags for each list type
+
+Each list type in HTML uses specific tags:
+
+- **Ordered list:** `<ol>` and `<li>`
+- **Unordered list:** `<ul>` and `<li>`
+- **Description list:** `<dl>`, `<dt>`, and `<dd>`
+
+
+---
+
+## 15. Links and attributes
+
+The `<a>` tag is used to create links in HTML.
+
+Common attributes of the `<a>` tag include:
+- **`href`** — specifies the destination URL
+- **`target`** — defines where the link opens (e.g. `_blank`)
+- **`title`** — adds additional information displayed as a tooltip
+
+Example:
 ```html
+
 <a href="https://example.com" target="_blank" title="Example">Example</a>
+
 ```
 
 ----
 
-## 16. Llojët e linkeve
+## 16. Types of links
 
-Në HTML, linket përdoren për të lidhur faqe dhe burime të ndryshme.
-Ekzistojnë dy lloje kryesore linkesh:
+In HTML, links are used to navigate between pages and resources.
+They are generally categorized into two main types:
 
-- **Linke të brendshme (Internal links)**  
-  Përdoren për të lidhur faqe brenda të njëjtit website ose projekt.
+- **Internal links**  
+  Used to link pages within the same website or project.
 
-- **Linke të jashtme (External links)**  
-  Përdoren për të lidhur faqe ose burime në internet.
+- **External links**  
+  Used to link to pages or resources outside the current website.
 
 ---
 
 ## 17. `img` vs `figure`
 
-Në HTML ekziston dallim mes përdorimit të tagut `<img>` dhe `<figure>`.
+There is an important difference between the `<img>` and `<figure>` tags in HTML.
 
 - **`<img>`**  
-  Përdoret për të shfaqur vetëm imazhin në faqe.
+  Displays only the image itself and is typically used for decorative
+  or standalone images.
 
 - **`<figure>`**  
-  Përdoret për të shfaqur imazhin bashkë me një përshkrim (`<figcaption>`),
-  zakonisht kur imazhi ka kuptim kontekstual.
+  Wraps an image together with a caption using `<figcaption>`,
+  and is commonly used when the image has contextual meaning.
 
----
 
-## 18. Tags për imazhe dhe figura
+## 18. Tags for images and figures
 
-Për të punuar me imazhe dhe figura në HTML përdoren këto tagje:
+To work with images and figures in HTML, the following tags are used:
 
-- **`<img>`** – për shfaqjen e imazheve
-- **`<figure>`** – për përfshirjen e imazhit
-- **`<figcaption>`** – për përshkrimin e imazhit
+- **`<img>`** — displays an image on the page
+- **`<figure>`** — groups an image with related content
+- **`<figcaption>`** — provides a caption or description for the image
 
-Shembull:
+Example:
 ```html
 <figure>
-  <img src="foto.jpg" alt="Foto shembull">
-  <figcaption>Përshkrimi i fotos</figcaption>
+  <img src="photo.jpg" alt="Sample image">
+  <figcaption>Image description</figcaption>
 </figure>
 ```
