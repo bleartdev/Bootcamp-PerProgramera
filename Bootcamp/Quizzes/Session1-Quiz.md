@@ -1,48 +1,37 @@
-# HTML Basics — Session 2 Overview
+# HTML Basics — Session 1 Overview
 
-An overview of more advanced **HTML elements** related to images, maps, tables, meta tags, and forms.
+A concise overview of the core concepts of **HTML (HyperText Markup Language)**.
 
 ---
 
 ## Table of Contents
 
-1. [What are responsive images and through which HTML tag are they implemented?](#1-what-are-responsive-images-and-through-which-html-tag-are-they-implemented)
-2. [What are image maps and what is their benefit in HTML?](#2-what-are-image-maps-and-what-is-their-benefit-in-html)
-3. [How many types of image maps are there?](#3-how-many-types-of-image-maps-are-there)
-4. [What are meta tags and what are they used for?](#4-what-are-meta-tags-and-what-are-they-used-for)
-5. [What is the mechanism for creating tables and structuring rows and columns?](#5-what-is-the-mechanism-for-creating-tables-and-structuring-rows-and-columns)
-6. [Which attributes can be used in tables?](#6-which-attributes-can-be-used-in-tables)
-7. [How is a long table structured in HTML?](#7-how-is-a-long-table-structured-in-html)
-8. [Name 12 input types used in HTML web forms](#8-name-12-input-types-used-in-html-web-forms)
+1. [What is HTML?](#1-what-is-html)
+2. [Types of tags](#2-types-of-tags)
+3. [HTML document structure](#3-html-document-structure)
+4. [What goes inside `<head>`](#4-what-goes-inside-head)
+5. [What goes inside `<body>`](#5-what-goes-inside-body)
+6. [How elements are rendered](#6-how-elements-are-rendered)
+7. [Block vs Inline elements](#7-block-vs-inline-elements)
+8. [Comments in HTML](#8-comments-in-html)
+9. [Text formatting tags](#9-text-formatting-tags)
+10. [Semantic HTML tags](#10-semantic-html-tags)
+11. [Semantic vs non-semantic tags](#11-semantic-vs-non-semantic-tags)
+12. [Four semantic tags](#12-four-semantic-tags)
+13. [Types of lists](#13-types-of-lists)
+14. [Tags for each list type](#14-tags-for-each-list-type)
+15. [Links and attributes](#15-links-and-attributes)
+16. [Types of links](#16-types-of-links)
+17. [`img` vs `figure`](#17-img-vs-figure)
+18. [Tags for images and figures](#18-tags-for-images-and-figures)
 
 ---
 
-## 1. What are responsive images and through which HTML tag are they implemented?
+## 1. What is HTML?
 
-Responsive images are images that **adapt automatically** to different screen sizes such as mobile phones, tablets, and desktop devices.
-
-They are mainly implemented using the `<picture>` tag together with `<source>` and `<img>`.
-
-```html
-<picture>
-  <source media="(max-width: 600px)" srcset="mobile.jpg">
-  <source media="(min-width: 601px)" srcset="desktop.jpg">
-  <img src="default.jpg" alt="Responsive image">
-</picture>
-
-## 1. Responsive images
-
-Responsive images are images that **adapt automatically** to different screen sizes such as mobile phones, tablets, and desktop devices.
-
-They are mainly implemented using the `<picture>` tag together with `<source>` and `<img>`.
-
-```html
-<picture>
-  <source media="(max-width: 600px)" srcset="mobile.jpg">
-  <source media="(min-width: 601px)" srcset="desktop.jpg">
-  <img src="default.jpg" alt="Responsive image">
-</picture>
-```
+HTML is a markup language used to build the **structure of web pages**.  
+It is not a programming language. HTML tells the browser how content
+should be organized and displayed.
 
 ---
 
