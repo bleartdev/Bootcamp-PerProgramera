@@ -1,170 +1,236 @@
-📘 HTML – Pyetje & Përgjigje
-1. Çka është HTML?
+# 📘 HTML – Pyetje & Përgjigje
 
-HTML (HyperText Markup Language) është një gjuhë përshkruese që përdoret për të ndërtuar dhe përshkruar strukturën e faqeve web. Ajo i tregon browser-it se si është e organizuar përmbajtja e faqes.
+## 1. Çka është HTML?
 
-2. Çfarë lloje të tags kemi në HTML?
+**HTML** (*HyperText Markup Language*) është një gjuhë përshkruese që përdoret për të ndërtuar dhe përshkruar strukturën e faqeve web.  
+Ajo i tregon browser-it se si është e organizuar përmbajtja e faqes.
+---
 
-Në HTML kemi:
+## 2. Çfarë lloje të tag-eve kemi në HTML?
 
-Tags hapëse dhe mbyllëse
-Shembull: <p>Teksti</p>
+Në HTML kemi dy lloje kryesore të tag-eve:
 
-Tags vetë-mbyllëse (self-closing)
-Shembull: <img />, <br />, <hr />
+### 🔹 1. Tags hapëse dhe mbyllëse
+Këta tag-e kanë një tag hapës dhe një mbyllës.
 
-3. Struktura e një HTML dokumenti?
+Shembull:
+```html
+<p>Teksti</p> 
+```
+### 🔹 2. Tags vetë-mbyllëse (self-closing)
+Këta tag-e nuk kanë nevojë për tag mbyllës.
 
-Struktura bazë e një dokumenti HTML përbëhet nga:
+```html
+<img />
+<br />
+<hr />
+```
 
+---
+
+## 3. Struktura e një dokumenti HTML
+
+Struktura bazë e një dokumenti HTML përbëhet nga disa pjesë kryesore:
+
+```html
 <!DOCTYPE html>
-
 <html>
+  <head>
+    <!-- Këtu vendosen meta, title, link-et për CSS etj. -->
+  </head>
+  <body>
+    <!-- Këtu shkruhet përmbajtja e faqes -->
+  </body>
+</html>
+```
+---
+## 4. Çka vendoset në `<head>`?
 
-<head>
+Pjesa `<head>` e dokumentit HTML përmban informacion që nuk shfaqet direkt në faqen e web, por është i rëndësishëm për browser-in dhe SEO.
 
-<body>
+### 🔹 Elementët kryesorë që vendosen në `<head>`:
 
-4. Çka vendoset në <head>?
+- **Meta etiketat** (`<meta>`)  
+  Përdoren për të specifikuar karakteret, përshkrimin e faqes, keywords, etj.
 
-Në <head> vendosen:
+- **Titulli i faqes** (`<title>`)  
+  Shfaqet në skedën e browser-it dhe ndihmon në identifikimin e faqes.
 
-Meta etiketat (<meta>)
+- **Lidhjet me CSS** (`<link>`)  
+  Për të lidhur stylesheet-et që japin stilin e faqes.
 
-Titulli i faqes (<title>)
+- **Informacione për browser-in dhe SEO**  
+  Përfshin favicon, script-et e nevojshme, dhe metadata për motorët e kërkimit.
+---
 
-Lidhjet me CSS
+## 5. Çka vendoset në `<body>`?
 
-Informacione për browser-in dhe SEO
+Pjesa `<body>` e dokumentit HTML përmban **përmbajtjen e dukshme** të faqes që shfaqet në browser.
 
-5. Çka vendoset në <body>?
+### 🔹 Elemente të zakonshme që vendosen në `<body>`:
 
-Në <body> vendoset përmbajtja e dukshme e faqes, si:
+- **Tekstet** – Paragrafë, tituj, citime etj.
+- **Imazhet** – `<img>` për të shtuar grafika dhe foto.
+- **Linket** – `<a>` për të lidhur faqe të tjera ose burime.
+- **Listat** – `<ul>` / `<ol>` për listë të renditur ose të pakategorizuar.
+- **Tabelat** – `<table>` për të shfaqur të dhëna në formë tabelare.
+- **Formularët** – `<form>` për të mbledhur informacione nga përdoruesit.
+---
 
-Tekstet
+## 6. Si renderohen elementet në browser?
 
-Imazhet
+Në HTML, elementet renderohen në mënyrë të ndryshme në browser, kryesisht si:
 
-Linket
+### 🔹 1. Block elements
+- Zënë gjithë gjerësinë e linjës (full-width).
+- Fillojnë në një linjë të re.
+- Shembuj: `<div>`, `<p>`, `<h1>`–`<h6>`, `<section>`.
 
-Listat
+### 🔹 2. Inline elements
+- Zënë vetëm hapësirën e përmbajtjes së tyre.
+- Mund të shfaqen brenda një linje me elemente të tjerë.
+- Shembuj: `<span>`, `<a>`, `<strong>`, `<em>`.
 
-Tabelat
+---
+## 7. Cili është dallimi mes inline dhe block elements?
 
-Formularët
+### 🔹 Block elements
+- Zënë **tërë gjerësinë** e linjës (full-width).
+- Fillojnë në **rresht të ri**.
+- Shembuj: `<div>`, `<p>`, `<h1>`–`<h6>`.
 
-6. Si renderohen elementet në browser?
+### 🔹 Inline elements
+- Zënë vetëm **hapësirën e përmbajtjes së tyre**.
+- Nuk kalojnë në rresht të ri.
+- Shembuj: `<span>`, `<a>`, `<strong>`, `<em>`.
 
-Elementet në HTML renderohen si:
+---
+## 8. Çka ndihmojnë comments në HTML?
 
-Block elements
+Comments në HTML përdoren për **shpjegim, dokumentim dhe mirëmbajtje të kodit**, pa u shfaqur në faqen e web.
 
-Inline elements
+- Përdoren për të shpjeguar pjesë të kodit.
+- Ndihmojnë në **dokumentimin e projektit**.
+- E bëjnë kodin më të lehtë për mirëmbajtje.
+- Browser-i **nuk i shfaq comments**.
 
-7. Cili është dallimi mes inline dhe block?
+> **Shembull i comment në HTML:**
+```html
+<!-- Ky është një comment në HTML -->
+```
+---
+## 9. Përmend disa etiketa të tekstit në HTML
 
-Block elements:
+HTML ka shumë etiketa për **formatimin e tekstit**. Disa nga më të zakonshmet janë:
 
-Zënë tërë gjerësinë
+- **Bold / Trashë:** `<b>`, `<strong>`  
+- **Italic / Pjerrët:** `<i>`, `<em>`  
+- **Underline / Nënvizim:** `<u>`  
+- **Subscript / Superscript:** `<sub>`, `<sup>`  
+- **Tituj / Headers:** `<h1>` deri në `<h6>`
 
-Fillojnë në rresht të ri
-Shembull: <div>, <p>, <h1>
+---
+## 10. Çka janë etiketat semantike?
 
-Inline elements:
+**Etiketat semantike** janë etiketa që kanë **kuptim logjik** dhe tregojnë **rolin e përmbajtjes** në faqen web.
 
-Zënë vetëm hapësirën e nevojshme
+- Ndihmojnë browser-in dhe motorët e kërkimit (SEO) të kuptojnë përmbajtjen.  
+- Shembuj: `<header>`, `<footer>`, `<article>`, `<section>`, `<nav>`
 
-Nuk kalojnë në rresht të ri
-Shembull: <span>, <a>, <strong>
+---
 
-8. Çka ndihmojnë comments në HTML?
+## 11. Dallimi mes etiketave të zakonshme dhe semantike
 
-Comments përdoren për:
+- **Etiketat e zakonshme** (p.sh. `<div>`)  
+  - Nuk japin informacion mbi kuptimin e përmbajtjes.  
+- **Etiketat semantike** (p.sh. `<header>`, `<footer>`, `<article>`)  
+  - Tregon qartë **rolin e përmbajtjes** në faqe.  
+  - Përmirëson **accessibility** dhe **SEO**.
 
-Shpjegim të kodit
+---
+## 12. Numëro 4 etiketa semantike
 
-Dokumentim
+Disa nga etiketat semantike më të përdorura në HTML janë:
 
-Lehtësim të mirëmbajtjes
-Browser-i nuk i shfaq comments.
+- `<header>` – për kokën e faqes (p.sh. titull, menu kryesore).  
+- `<nav>` – për navigacionin e faqes.  
+- `<main>` – për përmbajtjen kryesore të faqes.  
+- `<footer>` – për fundin e faqes (p.sh. copyright, links).  
 
-9. Përmend disa etiketa të tekstit në HTML?
+---
+## 13. Çfarë lloje listash ekzistojnë në HTML?
 
-Disa etiketa të tekstit janë:
+Në HTML ekzistojnë tre lloje kryesore listash:
 
-<b>, <strong>
+### 🔹 1. Lista të renditura (Ordered List)
+- Përdor `<ol>` dhe `<li>`.  
+- Elementët numerohen automatikisht.
+- Shembull:
+```html
+<ol>
+  <li>Hapi i parë</li>
+  <li>Hapi i dytë</li>
+</ol>
+```
+---
+## 14. Tags e secilës listë
 
-<i>, <em>
+Çdo lloj liste në HTML ka tag-et e veta karakteristike:
 
-<u>
+- **Ordered List (Lista e renditur):** `<ol>` → `<li>`  
+- **Unordered List (Lista e parenditur):** `<ul>` → `<li>`  
+- **Description List (Lista përshkruese):** `<dl>` → `<dt>` dhe `<dd>`  
+---
+## 15. Cili është tagu për linke dhe atributet e tij?
 
-<sub>, <sup>
+Tagu për linke në HTML është `<a>`.
 
-<h1> deri në <h6>
+### 🔹 Atributet kryesore të `<a>`:
 
-10. Çka janë etiketat semantike?
+- **`href`** – specifikon **adresën e linkut**.  
+- **`target`** – përcakton **ku hapet linku** (p.sh. `_blank` për të hapur në dritare të re).  
+- **`title`** – shton një **përshkrim të shkurtër** që shfaqet si tooltip kur përdoruesi kalon mbi link.  
 
-Etiketat semantike janë etiketa që kanë kuptim logjik dhe tregojnë rolin e përmbajtjes në faqe.
+> **Shembull:**
+```html
+<a href="https://example.com" target="_blank" title="Shko tek Example">Example</a>
+```
+---
+## 16. Lloje të linkeve
 
-11. Dallimi mes etiketave të zakonshme dhe semantike?
+Në HTML ekzistojnë dy lloje kryesore linkesh:
 
-Etiketat e zakonshme (p.sh. <div>) nuk tregojnë kuptim
+- **Linke të brendshme (Internal Links)** – lidhin faqe brenda **të njëjtit projekt**.  
+  Shembull: `<a href="faqe.html">Faqja kryesore</a>`
 
-Etiketat semantike tregojnë qartë rolin e përmbajtjes (header, footer, article, etj.)
+- **Linke të jashtme (External Links)** – lidhin faqe të tjera në internet.  
+  Shembull: `<a href="https://example.com">Example</a>`
 
-12. Numero 4 etiketa semantike?
+---
 
-<header>
+## 17. Dallimi mes imazhit dhe figurës në aspektin vizual
 
-<nav>
+- **Image (`<img>`)** – shfaq vetëm **imazhin** në faqen web.  
+- **Figure (`<figure>`)** – përfshin **imazhin + përshkrimin (caption)**, zakonisht me `<figcaption>`.  
 
-<main>
+> **Shembull:**
+```html
+<figure>
+  <img src="foto.jpg" alt="Foto shembull">
+  <figcaption>Kjo është përshkrimi i fotos</figcaption>
+</figure>
+```
 
-<footer>
+## 18. Cilat tags përdoren për imazhe dhe për figura?
 
-13. Çfarë lloje listash ekzistojnë në HTML?
+- **Për imazhe:** `<img>` – përdoret për të shfaqur vetëm imazhin.  
 
-Në HTML ekzistojnë:
+- **Për figura:** `<figure>` dhe `<figcaption>` – përdoren për të përfshirë **imazhin + përshkrimin e tij** (caption).  
 
-Lista të renditura (ordered)
-
-Lista të parenditura (unordered)
-
-Lista përshkruese (description)
-
-14. Tags e secilës listë?
-
-Ordered list: <ol> → <li>
-
-Unordered list: <ul> → <li>
-
-Description list: <dl> → <dt> dhe <dd>
-
-15. Cili është tagu për linke dhe atributet e tij?
-
-Tagu për linke është <a>
-Atributet kryesore:
-
-href – adresa e linkut
-
-target – ku hapet linku
-
-title – përshkrim i shkurtër
-
-16. Lloje të linkeve?
-
-Linke të brendshme (brenda projektit)
-
-Linke të jashtme (faqe të tjera)
-
-17. Dallimi mes imazhit dhe figurës në aspektin vizual?
-
-Image (img) shfaq vetëm imazhin
-
-Figure (figure) përfshin imazhin + përshkrimin (caption)
-
-18. Cilat tags përdoren për imazhe dhe për figura?
-
-Për imazhe: <img>
-
-Për figura: <figure> dhe <figcaption>
+> **Shembull:**
+```html
+<figure>
+  <img src="foto.jpg" alt="Foto shembull">
+  <figcaption>Kjo është përshkrimi i fotos</figcaption>
+</figure>
+```
