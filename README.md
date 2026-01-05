@@ -1,179 +1,156 @@
-# Full-Stack Web Developer Bootcamp + AI 
+# Bootcamp — Për Programera  
+## Full-Stack Web Developer Bootcamp + AI Integration
 
-This repository is **my weekly learning diary** from the  
-**“Full-Stack Web Developer Bootcamp + AI Integration”** organized by **Për Programera**.
+Ky repository është **ditari im i të mësuarit** dhe **arkivi praktik** gjatë pjesëmarrjes time në  
+**Full-Stack Web Developer Bootcamp + AI Integration**, i organizuar nga **Për Programera**.
 
-The purpose of this repository is to:
-- document what I learn every week,
-- keep notes for the most important topics,
-- maintain a clear history of my progress,
-- create a resource I can later show to potential employers.
+🔗 Bootcamp zyrtar: [Për programerë](https://perprogramera.com/trajnime/full-stack-web-developer-bootcamp/)
+
+
+---
+
+## 🎯 Qëllimi i kësaj Repo
+
+Qëllimi i këtij repository është:
+- të dokumentojë procesin tim të mësimit (javë pas jave),
+- të ruajë ushtrimet, projektet dhe materialet mësimore,
+- të ndërtojë një histori të qartë progresi,
+- të shërbejë si bazë për portfolio profesionale.
+
+Kjo **nuk është vetëm një repo me file**, por një **proces i dokumentuar mësimi**.
 
 ---
 
 ## 🔥 Bootcamp Information
 
-- Format: Intensive Online Training  
-- Field: Full-Stack Web Development + AI Integration  
-- Total Duration: ~150 hours  
-- Main Technologies:
-  - HTML5, CSS3, TailwindCSS  
-  - JavaScript, React 19  
-  - MySQL  
-  - PHP 8.4, Laravel 12  
-  - Artificial Intelligence Integration 
+- **Programi:** Full-Stack Web Developer Bootcamp + AI Integration  
+- **Organizatori:** Për Programera  
+- **Formati:** Live Online (Zoom)  
+- **Kohëzgjatja:** ~150 orë  
+- **Fillimi:** 16 Dhjetor 2025  
+- **Sesione në javë:** 2 herë në javë  
+- **Orari:**  
+  - 🗓️ E martë — 19:00–21:30  
+  - 🗓️ E enjte — 19:00–21:30  
 
-Instructor: **Ylber Veliu, MSc** – founder and instructor of the educational platform **Për Programera**.
-
----
-
-## ⏰ Schedule & Duration
-
-- **Start Date:** 16 December 2025  
-- **Sessions:** Every **Tuesday & Thursday**  
-- **Time:** 19:00 – 21:30  
-- **Hours per session:** 2.5 hours  
-- **Total sessions per week:** 2  
-- **Total weekly hours:** ~5 hours  
-- **Total Program Hours:** ~150 hours  
-
-
+📌 **Shënim:**  
+Çdo sesion përfshin **teori + praktikë**, sipas planit të ligjëruesit.
 
 ---
 
-## 🧠 What I Aim to Achieve with This Bootcamp
+## 🧠 Metodologjia e Trajnimit
 
-- To be able to build **websites and full web applications from scratch to final product**.
-- To learn how to use **AI (ChatGPT, Copilot, etc.) as a “super tool”** during development.
-- To build **10+ real projects** for my portfolio.
-- To gain **strong front-end and back-end knowledge**.
-- To improve my **soft skills**: communication, teamwork, project presentation, etc.
+- 20% Ligjërim  
+- 60% Praktikë & Projekte  
+- 10% Diskutim  
+- 10% Lojë / Aktivitet interaktiv  
+
+Përfshin:
+- kodim live,
+- ushtrime praktike,
+- punë individuale dhe në grup,
+- detyra shtëpie,
+- kuize,
+- diskutime dhe Q&A.
 
 ---
 
-## 📅 Weekly Notes & Lessons Structure
+## 📚 Çfarë përfshin Bootcamp-i
 
-All content is stored inside the `weeks/` directory.
+### 🔹 Artificial Intelligence (AI)
+- Histori e AI (1950 – sot)
+- AI, ML, Deep Learning
+- Large Language Models (LLMs)
+- Prompt Engineering
+- Si me komuniku me AI / si mos me komuniku
+- Identifikimi i gabimeve të AI
+- Integrimi i AI në zhvillim software
 
-Each week contains two parts (since I have 2 sessions per week).  
-Inside each part I keep only the code that I work on during that session.
+### 🔹 Frontend Development
+- HTML5
+- CSS3
+- Responsive Design
+- Tailwind CSS
+- JavaScript (ES6+)
+- APIs
+- React 19
 
+### 🔹 Backend Development
+- PHP 8.4
+- Object-Oriented Programming (OOP)
+- Laravel 12
+- REST APIs
+- Authentication & Authorization
 
-### Example structure
+### 🔹 Databases
+- MySQL
+- Database Design
+- CRUD Operations
+- Relationships & Optimization
 
+---
 
-[Weeks/](./Bootcamp/Weeks/)
+## 📁 Struktura e Repository
 
-````text
+```text
+Bootcamp/
+├── Weeks/        # Materiale dhe ushtrime sipas javëve
+├── Projects/     # Projekte praktike
+├── Quizzes/      # Pyetje dhe kuize
+├── Slides/       # Prezantime (PDF)
+├── Resources/    # Materiale ndihmëse
+└── Exercise/     # Ushtrime të pavarura
+```
+---
+
+## 📁 [`Weeks/`](https://github.com/bleartdev/Bootcamp-PerProgramera/tree/main/Bootcamp/Weeks) - Struktura e Folderit
+
+```text
 Weeks/
 ├── Week-1/
 │   ├── Tuesday/
-│   │   └── Lesson-1/
-│   │       ├── index.html
-│   │       ├── style.css
-│   │       └── script.js
-│   │
 │   └── Thursday/
-│       └── Lesson-1/
-│           ├── index.html
-│           ├── style.css
-│           └── script.js
-│
 ├── Week-2/
 │   ├── Tuesday/
-│   │   └── Lesson-1/
-│   │       ├── index.html
-│   │       ├── style.css
-│   │       └── script.js
-│   │
 │   └── Thursday/
-│       └── Lesson-1/
-│           ├── index.html
-│           ├── style.css
-│           └── script.js
-│
-├── Week-3/
-│   └── ...
+├── ...
+```
 
-````
+📌 Shënim:
+Folderët `Tuesday` dhe `Thursday` përdoren vetëm për **organizim kronologjik**.
+Nuk ka ndarje mes teori/praktikë **– çdo sesion përmban teori + praktikë,** sipas planit të ligjëruesit.
+#
 
+### 📂 Çfarë përmban çdo javë
 
-This way everything stays:
-✔️ clean  
-✔️ organized  
-✔️ easy to understand  
+**Brenda çdo `Week-X/` mund të gjenden:**
 
----
+- Shembuj praktikë (HTML, CSS, JavaScript, etj.),
 
-## 🤖 AI & Tools I Will Learn and Use During the Bootcamp
+- Ushtrime nga sesionet live,
 
-As part of this bootcamp, I will learn the fundamentals and practical use of 
-Artificial Intelligence in software development, including both concepts 
-and hands-on tools.
+- Eksperimente personale,
 
-### 🧠 AI Topics Covered
+- Shënime dhe përmbledhje,
 
-- Introduction to Artificial Intelligence (1950 – Present)
-- Core Concepts:
-  - Artificial Intelligence (AI)
-  - Machine Learning (ML)
-  - Deep Learning
-  - Neural Networks
-  - Natural Language Processing (NLP)
-  - Computer Vision
-  - Generative AI
-  - Large Language Models (LLMs)
-- Prompt Engineering:
-  - How to communicate effectively with AI
-  - How not to communicate with AI
-  - Identifying and understanding AI mistakes
-  - Getting the best results from AI
-- AI Today & Future Potential
-- Why it’s worth becoming a developer in the age of AI
-- How to become a unique and competitive developer
-- Weekly Q&A sessions and open discussions
+- README për përmbledhjen e javës (nëse është e nevojshme).
 
-### 🛠️ Platforms & Tools Used
+#
 
-- Cursor (AI-powered code editor)
-- VS Code + GitHub Copilot
-- OpenAI API (ChatGPT, Whisper, DALL·E)
-- Claude
-- Grok / Gemini
-- Lovable / Bolt
-- Hugging Face
-- Replicate
-- Poe
-- Playground AI
-- TensorFlow.js
-- Low-Code & No-Code tools
+### 🎯 Qëllimi i Folderit [`Weeks/`](https://github.com/bleartdev/Bootcamp-PerProgramera/tree/main/Bootcamp/Weeks)
+- Dokumentimi i progresit tim javë pas jave,
 
-### 🎯 Goal
+- Ruajtja e shembujve praktikë nga ligjëratat,
 
-The goal is to **learn how to responsibly and effectively combine classic 
-software development with AI**, using it as a productivity and problem-solving 
-tool — not a replacement for core programming skills.
+- Krijimi i një arkivi të qartë mësimor,
 
+- Referencë e shpejtë për rishikim të koncepteve.
+##
 
-## 📂 Projects
+📌 **Shënime**
 
-Inside the [`Projects/\`](./Bootcamp/Projects/) folder I will add details about main projects:
+- Struktura mund të zgjerohet sipas nevojës së bootcamp-it.
 
-- Project description  
-- Technologies used  
-- What I learned while building it  
-- What I would like to improve in the future  
+- Çdo file në këtë folder është pjesë e procesit tim të mësimit.
 
----
-
-## 🚀 My Progress
-
-This repository is **a work in progress**.  
-Every time I finish a week or a module, I update:
-
-- weekly notes  
-- projects  
-- thoughts and reflections  
-
-If you are reading this and thinking about joining the bootcamp —  
-maybe this repository will help you understand what to expect. 🙂
+- Fokus kryesor: **praktikë reale dhe progres i vazhdueshëm.**
