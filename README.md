@@ -1,70 +1,72 @@
 # Bootcamp — Për Programera  
 ## Full-Stack Web Developer Bootcamp + AI Integration
 
-Ky repository është **ditari im i të mësuarit** dhe **arkivi praktik** gjatë pjesëmarrjes time në  
-**Full-Stack Web Developer Bootcamp + AI Integration**, i organizuar nga **Për Programera**.
+This repository is **my learning diary** and **practical archive** during my participation in the  
+**Full-Stack Web Developer Bootcamp + AI Integration**, organized by **Për Programera**.
 
-🔗 Bootcamp zyrtar: [**Për programerë**](https://perprogramera.com/trajnime/full-stack-web-developer-bootcamp/)
+🔗 Official bootcamp: [**Për Programerë**](https://perprogramera.com/trajnime/full-stack-web-developer-bootcamp/)
 
+---
+
+
+## 🎯 Purpose of This Repository
+
+The purpose of this repository is to:
+- document my learning process (week by week),
+- store exercises, projects, and learning materials,
+- build a clear history of progress,
+- serve as a foundation for a professional portfolio.
+
+This is **not just a repository of files**, but a **documented learning journey**.
 
 ---
 
-## 🎯 Qëllimi i kësaj Repo
-
-Qëllimi i këtij repository është:
-- të dokumentojë procesin tim të mësimit (javë pas jave),
-- të ruajë ushtrimet, projektet dhe materialet mësimore,
-- të ndërtojë një histori të qartë progresi,
-- të shërbejë si bazë për portfolio profesionale.
-
-Kjo **nuk është vetëm një repo me file**, por një **proces i dokumentuar mësimi**.
-
----
 
 ## 🔥 Bootcamp Information
 
-- **Programi:** Full-Stack Web Developer Bootcamp + AI Integration  
-- **Organizatori:** Për Programera  
-- **Formati:** Live Online (Zoom)  
-- **Kohëzgjatja:** ~150 orë  
-- **Fillimi:** 16 Dhjetor 2025  
-- **Sesione në javë:** 2 herë në javë  
-- **Orari:**  
-  - 🗓️ E martë — 19:00–21:30  
-  - 🗓️ E enjte — 19:00–21:30  
+- **Program:** Full-Stack Web Developer Bootcamp + AI Integration  
+- **Organizer:** Për Programera  
+- **Format:** Live Online (Zoom)  
+- **Total Duration:** ~150 hours  
+- **Start Date:** December 16, 2025  
+- **Sessions per week:** 2 sessions per week
+- **Schedule:**  
+  - 🗓️ Tuesday — 19:00–21:30  
+  - 🗓️ Thursday — 19:00–21:30  
 
-📌 **Shënim:**  
-Çdo sesion përfshin **teori + praktikë**, sipas planit të ligjëruesit.
-
----
-
-## 🧠 Metodologjia e Trajnimit
-
-- 20% Ligjërim  
-- 60% Praktikë & Projekte  
-- 10% Diskutim  
-- 10% Lojë / Aktivitet interaktiv  
-
-Përfshin:
-- kodim live,
-- ushtrime praktike,
-- punë individuale dhe në grup,
-- detyra shtëpie,
-- kuize,
-- diskutime dhe Q&A.
+📌 **Note:**  
+Each session includes **theory + practice**, according to the instructor’s plan.
 
 ---
 
-## 📚 Çfarë përfshin Bootcamp-i
+
+## 🧠 Training Methodology
+
+- 20% Lectures  
+- 60% Practice & Projects  
+- 10% Discussion  
+- 10% Interactive Activities
+
+Includes:
+- live coding,
+- hands-on exercises,
+- individual and group work,
+- homework assignments,
+- quizzes,
+- discussions and Q&A sessions.
+
+---
+
+## 📚 What the Bootcamp Covers
 
 ### 🔹 Artificial Intelligence (AI)
-- Histori e AI (1950 – sot)
-- AI, ML, Deep Learning
+- History of AI (1950 – present)
+- Artificial Intelligence (AI), Machine Learning (ML), Deep Learning
 - Large Language Models (LLMs)
 - Prompt Engineering
-- Si me komuniku me AI / si mos me komuniku
-- Identifikimi i gabimeve të AI
-- Integrimi i AI në zhvillim software
+- How to communicate with AI / how not to communicate with AI
+- Identifying AI mistakes and limitations
+- Integrating AI into software development
 
 ### 🔹 Frontend Development
 - HTML5
@@ -90,20 +92,23 @@ Përfshin:
 
 ---
 
-## 📁 Struktura e Repository
+
+## 📁 Repository Structure
 
 ```text
 Bootcamp/
-├── Weeks/        # Materiale dhe ushtrime sipas javëve
-├── Projects/     # Projekte praktike
-├── Quizzes/      # Pyetje dhe kuize
-├── Slides/       # Prezantime (PDF)
-├── Resources/    # Materiale ndihmëse
-└── Exercise/     # Ushtrime të pavarura
+├── Weeks/        # Weekly materials and exercises
+├── Projects/     # Practical projects
+├── Quizzes/      # Questions and quizzes
+├── Slides/       # Presentations (PDF)
+├── Resources/    # Supporting materials
+└── Exercise/     # Independent exercises
+
 ```
 ---
 
-## 📁 Struktura e Folderit - [`Weeks/`](https://github.com/bleartdev/Bootcamp-PerProgramera/tree/main/Bootcamp/Weeks) 
+## 📁 Folder Structure — [`Weeks/`](https://github.com/bleartdev/Bootcamp-PerProgramera/tree/main/Bootcamp/Weeks)
+
 ```text
 Weeks/
 ├── Week-1/
@@ -114,40 +119,42 @@ Weeks/
 │   └── Thursday/
 ├── ...
 ```
-📌 **Shënim:**
-  - Folderët `Tuesday` dhe `Thursday` përdoren vetëm për **organizim kronologjik**.  
-  - Nuk ka ndarje mes teori/praktikë — **çdo sesion përmban teori + praktikë**, sipas planit të ligjëruesit.
-#
-### 📂 Çfarë përmban çdo javë
-
-Brenda çdo `Week-X/` mund të gjenden:
-- Shembuj praktikë (HTML, CSS, JavaScript, etj.)
-- Ushtrime nga sesionet live
-- Eksperimente personale
-- Shënime dhe përmbledhje
-- `README.md` për përmbledhjen e javës (nëse është e nevojshme)
+📌 **Note:**
+- The `Tuesday` and `Thursday` folders are used only for **chronological organization**.  
+- There is no separation between theory and practice — **each session includes both theory + practice**, according to the instructor’s plan.
 
 #
+### 📂 What Each Week Contains
 
-### 🎯 Qëllimi i Folderit [`Weeks/`](https://github.com/bleartdev/Bootcamp-PerProgramera/tree/main/Bootcamp/Weeks)
+Inside each `Week-X/`, you may find:
+- Practical examples (HTML, CSS, JavaScript, etc.)
+- Exercises from live sessions
+- Personal experiments
+- Notes and summaries
+- A `README.md` with the weekly overview (if needed)
 
-Ky folder shërben për **dokumentimin e progresit tim javë pas jave** gjatë bootcamp-it.
 
-**Qëllimet kryesore janë:**
-- Dokumentimi i progresit tim javë pas jave
-- Ruajtja e shembujve praktikë nga ligjëratat
-- Krijimi i një arkivi të qartë mësimor
-- Referencë e shpejtë për rishikim të koncepteve
-
-📌 **Shënim:**
-- Struktura mund të zgjerohet sipas nevojës së bootcamp-it
-- Çdo file në këtë folder është pjesë e procesit tim të mësimit
-- Fokusi kryesor është **praktikë reale dhe progres i vazhdueshëm**
 #
+
+### 🎯 Purpose of the [`Weeks/`](https://github.com/bleartdev/Bootcamp-PerProgramera/tree/main/Bootcamp/Weeks) Folder
+
+This folder is used to **document my progress week by week** throughout the bootcamp.
+
+**The main goals are:**
+- Documenting my weekly learning progress
+- Preserving practical examples from the lectures
+- Creating a clear and structured learning archive
+- Providing a quick reference for reviewing concepts
+
+
+📌 **Note:**
+- The structure may be expanded as the bootcamp progresses
+- Every file in this folder is part of my learning process
+- The main focus is **real-world practice and continuous progress**
+
 ---
 
-## 📂 Struktura e Folderit - [`Projects/`](https://github.com/bleartdev/Bootcamp-PerProgramera/tree/main/Bootcamp/Projects)
-
+## 📂 Folder Structure — [`Projects/`](https://github.com/bleartdev/Bootcamp-PerProgramera/tree/main/Bootcamp/Projects)
 
 ```text
 Projects/
@@ -159,47 +166,46 @@ Projects/
 ├── Project-Laravel/
 └── ...
 ```
-📌 **Shënim:**
-- Jo të gjithë folderët mund të ekzistojnë që në fillim.
-- Ato shtohen gradualisht sipas fazës së bootcamp-it.
+📌 **Note:**
+- Not all folders may exist from the beginning.
+- They are added gradually according to the bootcamp phases.
 #
 
 
-### 🧩 Çfarë përmban një projekt
+### 🧩 What a Project Contains
 
-Çdo projekt zakonisht përmban:
-- File burimore (HTML / CSS / JavaScript / PHP)
-- Assets (imazhe, video, audio)
-- Strukturë të organizuar të folderëve
-- Kod të shkruar sipas praktikave të mira
+Each project usually includes:
+- Source files (HTML / CSS / JavaScript / PHP)
+- Assets (images, video, audio)
+- An organized folder structure
+- Code written following best practices
 
-**Nëse projekti është më i madh, mund të ketë edhe:**
-- `README.md` të vetin
-- Dokumentim të shkurtër për funksionalitetin
-- Shënime për setup-in ose përdorimin
+**If the project is larger, it may also include:**
+- Its own `README.md`
+- Short documentation of the functionality
+- Notes about setup or usage
 
+#
+### 🚀 Purpose of the [`Projects/`](https://github.com/bleartdev/Bootcamp-PerProgramera/tree/main/Bootcamp/Projects) Folder
 
+This folder is focused on the **practical application of the knowledge** gained throughout the bootcamp.
 
-### 🚀 Qëllimi i Folderit [`Projects/`](https://github.com/bleartdev/Bootcamp-PerProgramera/tree/main/Bootcamp/Projects)
+**The main goals are:**
+- Practical application of theoretical knowledge
+- Building real-world projects
+- Creating a practical portfolio
+- Preparing for professional projects and real work
 
-Ky folder është i fokusuar në **zbatimin praktik të njohurive** të fituara gjatë bootcamp-it.
-
-**Qëllimet kryesore janë:**
-- Zbatim praktik i njohurive teorike
-- Ndërtim i projekteve reale
-- Krijimi i një portfolio praktike
-- Përgatitje për projekte profesionale dhe punë reale
-
-📌 **Shënim:**
-- Fokusi kryesor është **funksionaliteti** dhe **praktika**, jo perfeksioni vizual
-- Projektet përmirësohen dhe refaktorohen gjatë kohës
-- Ky folder pasqyron **rritjen time si developer**
+📌 **Note:**
+- The main focus is **functionality** and **practice**, not visual perfection
+- Projects are improved and refactored over time
+- This folder reflects **my growth as a developer**
 
 
 
 ---
 
-## 📂 Struktura e Folderit - [`Quizzes/`](https://github.com/bleartdev/Bootcamp-PerProgramera/tree/main/Bootcamp/Quizzes)
+## 📂 Folder Structure — [`Quizzes/`](https://github.com/bleartdev/Bootcamp-PerProgramera/tree/main/Bootcamp/Quizzes)
 
 ```text
 Quizzes/
@@ -208,47 +214,47 @@ Quizzes/
 ├── Session3.Quiz.md
 └── ...
 ```
-
-📌 **Shënim:**
-- Çdo file përfaqëson një kuiz të zhvilluar në fillim të një ligjërate
-- File-at shtohen pas çdo sesioni të bootcamp-it
+📌 **Note:**
+- Each file represents a quiz conducted at the beginning of a lecture
+- Files are added after each bootcamp session
 
 #
 
-### ❓ Çfarë përmban një kuiz
+### ❓ What a Quiz Contains
 
-Çdo kuiz zakonisht përmban:
-- Pyetje të shtruara nga profesori
-- Përgjigje të strukturuara dhe të shpjeguara
-- Shembuj kodi (kur është e nevojshme)
-- Përmbledhje të koncepteve kryesore të sesionit
+Each quiz usually includes:
+- Questions provided by the instructor
+- Structured and well-explained answers
+- Code examples (when necessary)
+- A summary of the main concepts from the session
 
-**Kuizet zakonisht janë në format:**
+**Quizzes are usually in the following format:**
 - `.md` (Markdown)
-- Strukturë e qartë dhe e lexueshme në VS Code dhe GitHub
+- Clear and readable structure in VS Code and GitHub
+
 
 #
 
-### 🚀 Qëllimi i Folderit [`Quizzes/`](https://github.com/bleartdev/Bootcamp-PerProgramera/tree/main/Bootcamp/Quizzes)
+### 🚀 Purpose of the [`Quizzes/`](https://github.com/bleartdev/Bootcamp-PerProgramera/tree/main/Bootcamp/Quizzes) Folder
 
-Ky folder shërben për **rikujtim dhe konsolidim të njohurive** përmes kuizeve të sesioneve.
+This folder is used for **reviewing and reinforcing knowledge** through session quizzes.
 
-**Qëllimet kryesore janë:**
-- Rikujtim i materialit të kaluar
-- Konsolidim i njohurive teorike
-- Përgatitje për temat e reja të ligjëratës
-- Ndërtim i një baze të fortë konceptuale
+**The main goals are:**
+- Reviewing previously covered material
+- Consolidating theoretical knowledge
+- Preparing for new lecture topics
+- Building a strong conceptual foundation
 
 #
 
-📌 **Shënim:**
-- Kuizet zhvillohen në fillim të çdo ligjërate
-- Pyetjet dhe përgjigjet ruhen për referencë dhe rishikim
-- Ky folder pasqyron një pjesë shumë të rëndësishme të procesit mësimor gjatë bootcamp-it
+📌 **Note:**
+- Quizzes are conducted at the beginning of each lecture
+- Questions and answers are stored for reference and review
+- This folder represents a very important part of the learning process during the bootcamp
 
 ---
 
-##  📂 Struktura e Folderit - [`Slides/`](https://github.com/bleartdev/Bootcamp-PerProgramera/tree/main/Bootcamp/Slides)
+##  📂 Folder Structure - [`Slides/`](https://github.com/bleartdev/Bootcamp-PerProgramera/tree/main/Bootcamp/Slides)
 
 ```text
 Slides/
@@ -259,86 +265,91 @@ Slides/
 └── ...
 ```
 
-📌 **Shënim:**
-- Çdo PDF përfaqëson prezantimet zyrtare të sesioneve të bootcamp-it
-- Slide-at shtohen gradualisht pas çdo ligjërate
+📌 **Note:**
+- Each PDF represents the official presentation slides of the bootcamp sessions
+- Slides are added gradually after each lecture
 #
 
-### 🧾 Çfarë përmban një prezantim (slide)
+### 🧾 What a Presentation (Slide) Contains
 
-Çdo prezantim zakonisht përmban:
-- Përmbledhje teorike të temave të sesionit
-- Shembuj vizualë dhe ilustrime
-- Strukturë të qartë të ligjëratës
-- Material mbështetës për ushtrimet praktike
+Each presentation usually includes:
+- A theoretical summary of the session topics
+- Visual examples and illustrations
+- A clear lecture structure
+- Supporting material for practical exercises
 
-**Prezantimet janë në format:**
+**Presentations are in the following format:**
 - `.pdf`
-- Të përshtatshme për rishikim dhe referencë të shpejtë
+- Suitable for review and quick reference
 
 #
-### 🚀 Qëllimi i Folderit [`Slides/`](https://github.com/bleartdev/Bootcamp-PerProgramera/tree/main/Bootcamp/Slides)
+### 🚀 Purpose of the [`Slides/`](https://github.com/bleartdev/Bootcamp-PerProgramera/tree/main/Bootcamp/Slides) Folder
 
-Ky folder shërben për **ruajtjen e materialeve zyrtare të ligjëratave** dhe mbështetjen teorike të bootcamp-it.
+This folder is used to **store the official lecture materials** and provide theoretical support for the bootcamp.
 
-**Qëllimet kryesore janë:**
-- Ruajtja e materialeve zyrtare të ligjëratave
-- Mbështetje teorike për praktikat dhe projektet
-- Referencë për rishikim të temave
-- Plotësim i shënimeve dhe ushtrimeve personale
+**The main goals are:**
+- Preserving official lecture materials
+- Providing theoretical support for practices and projects
+- Serving as a reference for reviewing topics
+- Complementing personal notes and exercises
 
-📌 **Shënim:**
-- Slide-at shërbejnë si material mbështetës, jo zëvendësim i praktikës
-- Rekomandohet kombinimi i tyre me ushtrime dhe projekte
-- Ky folder pasqyron pjesën teorike të bootcamp-it
+
+📌 **Note:**
+- Slides serve as supporting material, not a replacement for practice
+- It is recommended to combine them with exercises and projects
+- This folder represents the theoretical part of the bootcamp
 
 
 ---
 
-## 📂 Struktura e Folderit - [`Resources/`](https://github.com/bleartdev/Bootcamp-PerProgramera/tree/main/Bootcamp/Resources)
-```
+## 📂 Folder Structure — [`Resources/`](https://github.com/bleartdev/Bootcamp-PerProgramera/tree/main/Bootcamp/Resources)
+
+```text
 Resources/
-├── Mjetet.md
+├── Tools.md
 └── ...
 ```
-📌 **Shënim:**
-- Ky folder përmban materiale ndihmëse dhe burime shtesë.
-- File-at shtohen sipas nevojës gjatë bootcamp-it.
+📌 **Note:**
+- This folder contains supporting materials and additional resources
+- Files are added as needed throughout the bootcamp
 
-### 📝 Çfarë përmban një resource
+### 📝 What a Resource Contains
 
-Çdo resource zakonisht përmban:
-- Lista mjetesh zhvillimi (editors, extensions, AI tools)
-- Udhëzime dhe rekomandime praktike
-- Dokumente orientuese
-- Linke dhe referenca të dobishme
+Each resource usually includes:
+- Lists of development tools (editors, extensions, AI tools)
+- Practical guidelines and recommendations
+- Reference and orientation documents
+- Useful links and references
 
-**Resource-t zakonisht janë në format:**
+**Resources are usually in the following formats:**
 - `.md` (Markdown)
-- ose dokumente të tjera ndihmëse kur është e nevojshme
+- Or other supporting documents when necessary
+
 
 
 #
 
-### 🚀 Qëllimi i Folderit [`Resources/`](https://github.com/bleartdev/Bootcamp-PerProgramera/tree/main/Bootcamp/Resources)
+### 🚀 Purpose of the [`Resources/`](https://github.com/bleartdev/Bootcamp-PerProgramera/tree/main/Bootcamp/Resources) Folder
 
-Ky folder shërben si **qendër e burimeve ndihmëse** gjatë bootcamp-it.
+This folder serves as a **central hub for supporting resources** throughout the bootcamp.
 
-**Qëllimet kryesore janë:**
-- Mbështetje e procesit mësimor
-- Qasje e shpejtë në mjete dhe materiale të rëndësishme
-- Rritje e produktivitetit gjatë zhvillimit
-- Centralizim i burimeve të dobishme
+**The main goals are:**
+- Supporting the learning process
+- Providing quick access to important tools and materials
+- Increasing productivity during development
+- Centralizing useful resources
 
-📌 **Shënim:**
-- Ky folder plotëson materialet nga `Weeks/`, `Projects/` dhe `Slides/`
-- Resource-t përdoren si referencë gjatë dhe pas bootcamp-it
-- Ky folder është dinamik dhe zgjerohet vazhdimisht
+📌 **Note:**
+- This folder complements materials from `Weeks/`, `Projects/`, and `Slides/`
+- Resources are used as references during and after the bootcamp
+- This folder is dynamic and continuously expanded
+
 
 ---
 
-## 📂 Struktura e Folderit - [`Exercise/`](https://github.com/bleartdev/Bootcamp-PerProgramera/tree/main/Bootcamp/Exercise)
-```
+## 📂 Folder Structure — [`Exercise/`](https://github.com/bleartdev/Bootcamp-PerProgramera/tree/main/Bootcamp/Exercise)
+
+```text
 Exercise/
 ├── .html
 ├── .css
@@ -346,54 +357,57 @@ Exercise/
 ├── .php
 └── ...
 ```
-📌 **Shënim:**
-- Ky folder është i dedikuar për ushtrime personale dhe eksperimente.
-- Ushtrimet nuk janë detyra të detyrueshme, por:
-  - janë të sugjeruara nga profesori, ose
-  - janë iniciativa personale për praktikë shtesë.
+📌 **Note:**
+- This folder is dedicated to personal exercises and experiments
+- Exercises are not mandatory assignments, but:
+  - are suggested by the instructor, or
+  - are personal initiatives for additional practice
 
 #
 
-### ✏️ Çfarë përmban një ushtrim
+### ✏️ What an Exercise Contains
 
-Çdo ushtrim është i fokusuar në **praktikë konkrete** dhe zakonisht përmban:
+Each exercise is focused on **hands-on practice** and usually includes:
 
-- File `.html`, `.css`, `.js`, `.php`, `.jsx`, etj.
-- Testime të koncepteve të ndryshme (tags, layouts, logjikë, komponentë)
-- Shembuj të vegjël të fokusuar në një koncept të vetëm
-- Eksperimente me ide ose teknologji interesante
+- `.html`, `.css`, `.js`, `.php`, `.jsx`, etc. files
+- Testing of different concepts (tags, layouts, logic, components)
+- Small examples focused on a single concept
+- Experiments with ideas or interesting technologies
 
-**Ushtrimet janë:**
-- Të vogla dhe të izoluara
-- Të orientuara drejt praktikës
-- Pa presion për perfeksion, por me fokus në të mësuar
+**Exercises are:**
+- Small and isolated
+- Practice-oriented
+- Free from pressure for perfection, with a focus on learning
+
 
 #
-### 🚀 Qëllimi i Folderit [`Exercise/`](https://github.com/bleartdev/Bootcamp-PerProgramera/tree/main/Bootcamp/Exercise)
+### 🚀 Purpose of the [`Exercise/`](https://github.com/bleartdev/Bootcamp-PerProgramera/tree/main/Bootcamp/Exercise) Folder
 
-Ky folder shërben për **praktikë shtesë dhe eksplorim personal**, jashtë projekteve kryesore të bootcamp-it.
+This folder is intended for **additional practice and personal exploration**, outside the main bootcamp projects.
 
-**Qëllimet kryesore janë:**
-- Praktikë shtesë dhe konsolidim i njohurive
-- Thellim i njohurive personale
-- Testim i ideve të reja dhe koncepteve interesante
-- Ndërtim i sigurisë dhe vetëbesimit në kodim
+**The main goals are:**
+- Additional practice and consolidation of knowledge
+- Deepening personal understanding
+- Testing new ideas and interesting concepts
+- Building confidence and self-assurance in coding
 
-📌 **Shënim:**
-- Ushtrimet mund të jenë të papërfunduara ose eksperimentale
-- Ky folder është një hapësirë e lirë për të mësuar dhe provuar
-- Fokusi kryesor është praktika dhe kurioziteti, jo struktura strikte
+📌 **Note:**
+- Exercises may be unfinished or experimental
+- This folder is a free space to learn and experiment
+- The main focus is practice and curiosity, not strict structure
+
 
 ---
 
-## 🏁 Përfundim
+## 🏁 Conclusion
 
-Ky repository dokumenton progresin tim gjatë  
-**Full-Stack Web Developer Bootcamp + AI Integration** nga  [**Për Programera**](https://perprogramera.com/trajnime/full-stack-web-developer-bootcamp/).
+This repository documents my progress throughout the  
+**Full-Stack Web Developer Bootcamp + AI Integration** by [**Për Programera**](https://perprogramera.com/trajnime/full-stack-web-developer-bootcamp/).
 
-Ai shërben si:
-- arkiv praktik i ushtrimeve dhe projekteve,
-- histori progresi nga bazat deri në koncepte më të avancuara,
-- bazë për ndërtimin e portofolit profesional.
+It serves as:
+- a practical archive of exercises and projects,
+- a progress timeline from fundamentals to more advanced concepts,
+- a foundation for building a professional portfolio.
 
-Repo-ja do të përditësohet vazhdimisht gjatë gjithë trajnimit.
+The repository will be continuously updated throughout the entire training.
+
