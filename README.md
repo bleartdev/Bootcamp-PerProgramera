@@ -26,13 +26,15 @@ This is **not just a repository of files**, but a **documented learning journey*
 
 - **Program:** Full-Stack Web Developer Bootcamp + AI Integration  
 - **Organizer:** Për Programera  
-- **Format:** Live Online (Zoom)  
+- **Instructor:** [**Ylber Veliu**](https://github.com/ylberveliu)
+- **Format:** Online (Zoom)  
 - **Total Duration:** ~150 hours  
 - **Start Date:** December 16, 2025  
-- **Sessions per week:** 2 sessions per week
+- **Sessions per week:** 2 sessions per week  
 - **Schedule:**  
   - 🗓️ Tuesday — 19:00–21:30  
   - 🗓️ Thursday — 19:00–21:30  
+
 
 📌 **Note:**  
 Each session includes **theory + practice**, according to the instructor’s plan.
@@ -103,7 +105,6 @@ Bootcamp/
 ├── Slides/       # Presentations (PDF)
 ├── Resources/    # Supporting materials
 └── Exercise/     # Independent exercises
-
 ```
 ---
 
