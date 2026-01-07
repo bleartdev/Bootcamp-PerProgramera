@@ -400,6 +400,55 @@ This folder is intended for **additional practice and personal exploration**, ou
 
 ---
 
+## 🌿 Branches & Deployment
+
+This repository uses a **progressive branching and deployment strategy**
+based on completed bootcamp modules.
+
+Each deployment branch represents the completion of a specific
+technology phase and contains a deploy-ready version of the project.
+
+### 🔹 [**`main`**](https://github.com/bleartdev/Bootcamp-PerProgramera/tree/main)
+- The primary branch of the repository
+- Contains the complete and continuously updated bootcamp archive
+- Includes all learning materials, notes, exercises, and projects
+- Acts as the main documentation and development reference
+
+### 🚀 [**`deploy-html`**](https://github.com/bleartdev/Bootcamp-PerProgramera/tree/deploy)
+🌐 [**Live Website:**](https://bleartdev.github.io/Bootcamp-PerProgramera/)
+
+- First deployment branch
+- Created after completing all **HTML sessions**
+- Contains the finalized HTML-only project
+- Used to deploy the first static version of the website
+
+- First deployment branch
+- Created after completing all **HTML sessions**
+- Contains the finalized HTML-only project
+- Used to deploy the first static version of the website
+
+### 🚀 `deploy-css` *(planned)*
+- Will be created after completing the **CSS module**
+- Will include styling and layout improvements
+- Represents the second deployment stage of the same project
+
+### 🚀 `deploy-javascript` *(planned)*
+- Will be created after completing the **JavaScript module**
+- Will add interactivity and dynamic behavior to the project
+
+### 🚀 Future Deployment Branches
+Additional deployment branches may be added as the bootcamp progresses,
+such as:
+- `deploy-react`
+- `deploy-php`
+- `deploy-laravel`
+
+📌 **Note:**  
+Each deployment branch reflects a clear milestone in the learning process
+and demonstrates progressive improvement of the same project over time.
+
+
+---
 ## 🏁 Conclusion
 
 This repository documents my progress throughout the  
@@ -411,4 +460,3 @@ It serves as:
 - a foundation for building a professional portfolio.
 
 The repository will be continuously updated throughout the entire training.
-
