@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=" device-width", initial-scale=1.0">
+    <title> CSS APPLICATION RULES - SPECIFICITY </title>
+
+    <style>
+        /* Ky rregull aplikohet per te gjithe paragrafet <p>
+       dhe e ben tekstin gri */
+        p {
+            color: gray;
+        }
+
+        /* Ky rregull eshte ME SPECIFIK:
+       aplikohet vetem per elementin <q>
+       kur ai ndodhet BRENDA nje <p>
+       per kete arsye fiton dhe e ben ngjyren GREEN */
+        p q {
+            color: green;
+        }
+
+        /* Ky rregull aplikohet per te gjithe <q> ne faqe
+       por ka specificity me te ulet se 'p q'
+       edhe pse eshte i fundit, humbet dhe nuk aplikohet */
+        q {
+            color: red;
+        }
+    </style>
+
+
+
+
+</head>
+<body>
+
+
+    <h1>Conversation</h1>
+
+    <p>
+        It was so great to hear from you today and it was such weird timing, he said:
+        <q> This is going to sound funny and a little strange, </q>
+        but you were in a dream I had just a couple of days ago.
+    </p>
+    <a href="#">READ MORE</a>
+
+    
+
+</body>
+</html>
