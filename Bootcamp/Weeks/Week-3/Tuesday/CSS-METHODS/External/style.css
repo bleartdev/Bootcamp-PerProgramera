@@ -1,0 +1,10 @@
+p {
+    color: darkblue;
+    /* Percakton ngjyren e tekstit te paragrafit */
+
+    font-size: 60px;
+    /* Percakton madhesine e tekstit */
+
+    background-color: lightblue;
+    /* Percakton ngjyren e sfondit te paragrafit */
+}
