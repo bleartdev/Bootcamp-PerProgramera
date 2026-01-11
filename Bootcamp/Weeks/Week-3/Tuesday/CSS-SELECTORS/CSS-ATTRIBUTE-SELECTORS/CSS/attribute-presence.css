@@ -1,0 +1,6 @@
+/* [attr] — zgjedh elementet që KANE ate atribut (p.sh. title) */
+p[title] {
+  background: #fff3cd;
+  border: 1px solid #f0ad4e;
+  padding: 8px;
+}

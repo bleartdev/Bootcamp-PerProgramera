@@ -1,0 +1,5 @@
+/* Adjacent Sibling Selector
+   Zgjedh p qe vjen MENJEHERE pas h2 */
+h2 + p {
+    color: purple;
+}

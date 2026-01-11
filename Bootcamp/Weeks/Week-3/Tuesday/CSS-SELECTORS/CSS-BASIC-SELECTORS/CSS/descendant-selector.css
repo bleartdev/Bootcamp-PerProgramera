@@ -1,0 +1,5 @@
+/* Descendant Selector
+   Zgjedh p BRENDA div */
+div p {
+    color: green;
+}

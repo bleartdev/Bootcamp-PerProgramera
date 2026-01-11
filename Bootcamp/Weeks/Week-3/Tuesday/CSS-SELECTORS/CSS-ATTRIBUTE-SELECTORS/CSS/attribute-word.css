@@ -1,0 +1,6 @@
+/* [attr~="value"] — zgjedh kur value eshte FJALE me vete ne liste (me hapesira) */
+div[class~="featured"] {
+  border: 2px dashed #6f42c1;
+  padding: 10px;
+  margin: 6px 0;
+}

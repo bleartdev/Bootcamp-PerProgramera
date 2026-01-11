@@ -1,0 +1,5 @@
+/* [attr$="value"] — zgjedh kur atributi MBARON me value */
+a[href$=".pdf"] {
+  color: #dc3545;
+  text-decoration: underline;
+}

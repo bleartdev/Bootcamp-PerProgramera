@@ -1,0 +1,6 @@
+/* [attr="value"] — zgjedh kur atributi eshte TAMAN i barabarte */
+input[type="text"] {
+  border: 2px solid #2ecc71;
+  padding: 8px;
+  margin: 6px 0;
+}

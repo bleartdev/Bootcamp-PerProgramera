@@ -1,0 +1,5 @@
+/* Child Selector (>)
+   Zgjedh VETEM femijet direkte te div */
+div > h3 {
+    background-color: lightblue;
+}

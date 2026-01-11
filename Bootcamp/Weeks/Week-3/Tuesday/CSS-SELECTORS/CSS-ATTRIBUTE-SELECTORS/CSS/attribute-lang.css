@@ -1,0 +1,8 @@
+/* [attr|="value"] — zakonisht per lang:
+   zgjedh value OSE value-... (p.sh en ose en-US)
+*/
+p[lang|="en"] {
+  background: #d1e7dd;
+  border: 1px solid #198754;
+  padding: 8px;
+}

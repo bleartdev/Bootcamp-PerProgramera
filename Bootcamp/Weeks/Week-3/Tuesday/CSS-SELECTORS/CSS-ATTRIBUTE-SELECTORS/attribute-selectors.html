@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSS Attribute Selectors</title>
+
+  <!-- Secili file tregon NJE lloj attribute selector -->
+  <link rel="stylesheet" href="css/attr-presence.css" />
+  <link rel="stylesheet" href="css/attr-exact.css" />
+  <link rel="stylesheet" href="css/attr-prefix.css" />
+  <link rel="stylesheet" href="css/attr-suffix.css" />
+  <link rel="stylesheet" href="css/attr-substring.css" />
+  <link rel="stylesheet" href="css/attr-word.css" />
+  <link rel="stylesheet" href="css/attr-lang.css" />
+</head>
+
+<body>
+  <h1>CSS Attribute Selectors — Examples</h1>
+
+  <hr>
+
+  <!-- 1) [attr] - presence selector -->
+  <h2>1) [attr] — Presence selector</h2>
+  <p title="I have title attribute">Ky paragraf ka <code>title</code></p>
+  <p>Ky paragraf s’ka title</p>
+
+  <hr>
+
+  <!-- 2) [attr="value"] - exact match -->
+  <h2>2) [attr="value"] — Exact match</h2>
+  <input type="text" placeholder='type="text" (zgjedhet)' />
+  <input type="password" placeholder='type="password" (nuk zgjedhet)' />
+
+  <hr>
+
+  <!-- 3) [attr^="value"] - prefix -->
+  <h2>3) [attr^="value"] — Prefix (fillon me)</h2>
+  <a href="https://google.com">Link me https:// (zgjedhet)</a><br>
+  <a href="http://example.com">Link me http:// (nuk zgjedhet)</a>
+
+  <hr>
+
+  <!-- 4) [attr$="value"] - suffix -->
+  <h2>4) [attr$="value"] — Suffix (mbaron me)</h2>
+  <a href="cv.pdf">cv.pdf (zgjedhet)</a><br>
+  <a href="photo.jpg">photo.jpg (nuk zgjedhet)</a>
+
+  <hr>
+
+  <!-- 5) [attr*="value"] - substring anywhere -->
+  <h2>5) [attr*="value"] — Substring (e permban)</h2>
+  <a href="/docs/tutorial-css.html">tutorial-css.html (zgjedhet)</a><br>
+  <a href="/docs/index.html">index.html (nuk zgjedhet)</a>
+
+  <hr>
+
+  <!-- 6) [attr~="value"] - word in space-separated list -->
+  <h2>6) [attr~="value"] — Word match (fjale ne liste)</h2>
+  <div class="card featured">class="card featured" (zgjedhet)</div>
+  <div class="cardfeature">class="cardfeature" (nuk zgjedhet)</div>
+
+  <hr>
+
+  <!-- 7) [attr|="value"] - language match (value ose value-...) -->
+  <h2>7) [attr|="value"] — Language match</h2>
+  <p lang="en">lang="en" (zgjedhet)</p>
+  <p lang="en-US">lang="en-US" (zgjedhet)</p>
+  <p lang="eng">lang="eng" (nuk zgjedhet)</p>
+
+</body>
+</html>
