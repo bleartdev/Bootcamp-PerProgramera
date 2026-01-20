@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Elements</title>
+
+    <style>
+
+        *::selection{
+            background-color: darkslategray;
+        }
+        h1::first-letter{
+            font-size: 50px;
+            color: slategray;
+        }
+        p::first-line{
+            color :lime;
+            font-size: 22px;
+        }
+
+        .first-link::before{
+            content: '🐈‍⬛';
+        }
+        .second-link::before{
+            content: '✉️';
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Pseudo Elements</h1>
+    <p>
+       They say you only come to peace with yourself when you know   <br>yourself better than those around you. Derick knew nothing about <br> this. He thought he had found peace but this was an illusion <br>as he was about to find out with an unexpected occurrence that <br>he actually knew nothing about himself.
+    </p>
+    <a class="first-link"  href="https://github.com/">Github</a> &nbsp;&nbsp;&nbsp;&nbsp;
+    <a class="second-link"  href="https://mail.google.com/">Gmail</a>
+</body>
+</html>
